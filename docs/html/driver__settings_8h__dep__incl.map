@@ -1,0 +1,9 @@
+<map id="src/platform/windows/nvprefs/driver_settings.h" name="src/platform/windows/nvprefs/driver_settings.h">
+<area shape="rect" id="Node000001" title="Declarations for nvidia driver settings." alt="" coords="216,5,385,48"/>
+<area shape="rect" id="Node000002" href="$driver__settings_8cpp.html" title="Definitions for nvidia driver settings." alt="" coords="5,104,188,147"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,57,141,106,139,101,242,53"/>
+<area shape="rect" id="Node000003" href="$nvapi__opensource__wrapper_8cpp.html" title="Definitions for the NVAPI wrapper." alt="" coords="212,96,389,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="303,63,303,96,298,96,298,63"/>
+<area shape="rect" id="Node000004" href="$nvprefs__interface_8cpp.html" title="Definitions for nvidia preferences interface." alt="" coords="414,104,611,147"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="361,52,468,101,466,106,358,57"/>
+</map>

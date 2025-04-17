@@ -1,0 +1,44 @@
+<map id="src/entry_handler.h" name="src/entry_handler.h">
+<area shape="rect" id="Node000001" title="Declarations for entry handling functions." alt="" coords="843,5,975,32"/>
+<area shape="rect" id="Node000002" href="$config_8cpp.html" title="Definitions for the configuration of Sunshine." alt="" coords="590,88,693,115"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="854,39,684,90,682,85,852,34"/>
+<area shape="rect" id="Node000003" href="$entry__handler_8cpp.html" title="Definitions for entry handling functions." alt="" coords="5,179,152,205"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="847,40,798,58,751,82,738,93,730,104,721,115,706,125,656,141,591,151,438,161,283,165,164,173,128,181,126,175,163,168,283,159,438,156,591,146,655,136,704,120,717,111,726,101,734,89,748,78,796,53,845,35"/>
+<area shape="rect" id="Node000004" href="$globals_8h.html" title="Declarations for globally accessible variables and functions." alt="" coords="819,88,914,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="898,47,875,89,871,87,893,45"/>
+<area shape="rect" id="Node000009" href="$main_8cpp.html" title="Definitions for the main entry point for Sunshine." alt="" coords="176,179,272,205"/>
+<area shape="poly" id="edge18_Node000001_Node000009" title=" " alt="" coords="874,42,808,82,781,106,768,116,750,125,683,147,624,158,570,162,520,161,415,158,355,162,284,173,258,181,256,176,283,168,354,156,415,153,520,156,570,157,623,153,681,142,748,120,765,111,777,102,805,78,872,38"/>
+<area shape="rect" id="Node000013" href="$windows_2misc_8cpp.html" title="Miscellaneous definitions for Windows." alt="" coords="1755,171,1900,213"/>
+<area shape="poly" id="edge21_Node000001_Node000013" title=" " alt="" coords="921,45,944,86,960,105,980,120,1011,134,1048,145,1137,160,1241,166,1353,166,1574,162,1669,162,1744,168,1755,170,1754,175,1744,173,1669,168,1574,167,1353,172,1241,171,1136,165,1046,151,1009,139,977,125,956,109,940,89,917,48"/>
+<area shape="rect" id="Node000018" href="$linux_2misc_8cpp.html" title="Miscellaneous definitions for Linux." alt="" coords="990,80,1111,123"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="946,38,1016,77,1013,82,943,42"/>
+<area shape="rect" id="Node000019" href="$misc_8mm.html" title="Miscellaneous definitions for macOS platform." alt="" coords="1136,80,1269,123"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="970,34,1136,79,1135,84,969,39"/>
+<area shape="rect" id="Node000020" href="$system__tray_8cpp.html" title="Definitions for the system tray icon and notification system." alt="" coords="1293,88,1432,115"/>
+<area shape="poly" id="edge22_Node000001_Node000020" title=" " alt="" coords="991,29,1128,50,1282,77,1315,85,1313,90,1281,83,1127,55,991,34"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="804,117,749,125,585,141,456,146,328,153,164,173,127,181,126,175,163,168,327,148,456,141,585,136,749,120,803,112"/>
+<area shape="rect" id="Node000005" href="$audio_8cpp.html" title="Definitions for audio capture and encoding." alt="" coords="540,179,639,205"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="812,122,651,173,628,181,627,176,650,168,810,117"/>
+<area shape="rect" id="Node000006" href="$confighttp_8cpp.html" title="Definitions for the Web UI Config HTTP server." alt="" coords="662,179,788,205"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="835,126,747,180,744,176,832,121"/>
+<area shape="rect" id="Node000007" href="$globals_8cpp.html" title="Definitions for globally accessible variables and functions." alt="" coords="812,179,921,205"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="869,130,869,178,864,178,864,130"/>
+<area shape="rect" id="Node000008" href="$input_8cpp.html" title="Definitions for gamepad, keyboard, and mouse input handling." alt="" coords="945,179,1041,205"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="899,122,977,176,974,180,896,126"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="815,122,800,125,722,138,656,145,542,148,428,152,362,159,284,173,258,181,256,176,283,168,361,154,428,147,541,143,655,139,722,133,799,120,814,117"/>
+<area shape="rect" id="Node000010" href="$nvhttp_8cpp.html" title="Definitions for the nvhttp (GameStream) server." alt="" coords="1065,179,1169,205"/>
+<area shape="poly" id="edge10_Node000004_Node000010" title=" " alt="" coords="918,118,1082,176,1080,181,916,123"/>
+<area shape="rect" id="Node000011" href="$x11grab_8cpp.html" title="Definitions for x11 capture." alt="" coords="1194,171,1315,213"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="921,117,934,120,1058,145,1182,168,1194,171,1193,176,1181,173,1057,150,933,125,920,122"/>
+<area shape="rect" id="Node000012" href="$platform_2windows_2input_8cpp.html" title="Definitions for input handling on Windows." alt="" coords="1339,171,1484,213"/>
+<area shape="poly" id="edge12_Node000004_Node000012" title=" " alt="" coords="920,117,934,120,1044,138,1130,146,1217,152,1328,168,1339,170,1338,175,1327,173,1217,158,1130,151,1043,144,933,125,919,122"/>
+<area shape="poly" id="edge13_Node000004_Node000013" title=" " alt="" coords="918,117,934,120,1056,138,1160,147,1252,149,1338,148,1517,147,1621,153,1744,168,1755,170,1754,175,1743,173,1621,159,1516,152,1338,153,1252,154,1159,152,1055,143,933,125,917,122"/>
+<area shape="rect" id="Node000014" href="$rtsp_8cpp.html" title="Definitions for RTSP streaming." alt="" coords="1508,179,1598,205"/>
+<area shape="poly" id="edge14_Node000004_Node000014" title=" " alt="" coords="919,117,934,120,1019,133,1091,140,1216,142,1340,145,1413,153,1498,168,1524,176,1522,181,1497,173,1412,158,1340,150,1216,147,1091,145,1018,139,933,125,918,122"/>
+<area shape="rect" id="Node000015" href="$stream_8cpp.html" title="Definitions for the streaming protocols." alt="" coords="1623,179,1731,205"/>
+<area shape="poly" id="edge15_Node000004_Node000015" title=" " alt="" coords="918,117,934,120,1036,135,1123,143,1272,144,1421,145,1509,153,1611,168,1641,175,1640,181,1610,173,1508,158,1421,151,1272,149,1122,148,1035,141,933,125,917,122"/>
+<area shape="rect" id="Node000016" href="$upnp_8cpp.html" title="Definitions for UPnP port mapping." alt="" coords="296,179,392,205"/>
+<area shape="poly" id="edge16_Node000004_Node000016" title=" " alt="" coords="814,122,800,125,689,143,602,148,515,155,404,173,378,181,377,175,403,168,514,149,601,143,689,137,799,120,813,117"/>
+<area shape="rect" id="Node000017" href="$video_8cpp.html" title="Definitions for video." alt="" coords="416,179,515,205"/>
+<area shape="poly" id="edge17_Node000004_Node000017" title=" " alt="" coords="813,122,800,125,724,141,664,149,604,157,528,173,502,181,501,176,527,168,603,152,663,144,723,135,799,120,812,117"/>
+</map>

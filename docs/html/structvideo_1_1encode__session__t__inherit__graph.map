@@ -1,0 +1,7 @@
+<map id="video::encode_session_t" name="video::encode_session_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="90,5,255,32"/>
+<area shape="rect" id="Node000002" href="$classvideo_1_1avcodec__encode__session__t.html" title=" " alt="" coords="5,80,164,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,45,109,81,105,78,146,41"/>
+<area shape="rect" id="Node000003" href="$classvideo_1_1nvenc__encode__session__t.html" title=" " alt="" coords="188,80,333,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="199,41,240,78,236,81,196,45"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="platf::dxgi::display_base_t" name="platf::dxgi::display_base_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="160,105,287,148"/>
+<area shape="rect" id="Node000003" href="$classplatf_1_1dxgi_1_1display__ram__t.html" title=" " alt="" coords="335,72,462,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="302,109,334,103,335,108,303,114"/>
+<area shape="rect" id="Node000006" href="$classplatf_1_1dxgi_1_1display__vram__t.html" title=" " alt="" coords="335,139,462,181"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="303,139,335,145,334,151,302,144"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1display__t.html" title=" " alt="" coords="5,113,112,140"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,124,159,124,159,129,127,129"/>
+<area shape="rect" id="Node000004" href="$classplatf_1_1dxgi_1_1display__ddup__ram__t.html" title=" " alt="" coords="510,5,638,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="470,64,515,46,517,51,472,69"/>
+<area shape="rect" id="Node000005" href="$classplatf_1_1dxgi_1_1display__wgc__ram__t.html" title=" " alt="" coords="510,72,638,115"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="478,91,510,91,510,96,478,96"/>
+<area shape="rect" id="Node000007" href="$classplatf_1_1dxgi_1_1display__ddup__vram__t.html" title=" " alt="" coords="510,139,638,181"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="478,157,510,157,510,163,478,163"/>
+<area shape="rect" id="Node000008" href="$classplatf_1_1dxgi_1_1display__wgc__vram__t.html" title=" " alt="" coords="510,205,638,248"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="472,185,517,202,515,207,470,190"/>
+</map>

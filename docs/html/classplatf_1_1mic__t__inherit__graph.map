@@ -1,0 +1,9 @@
+<map id="platf::mic_t" name="platf::mic_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="213,5,299,32"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1audio_1_1mic__wasapi__t.html" title=" " alt="" coords="5,80,179,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,41,122,82,120,77,212,36"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1av__mic__t.html" title=" " alt="" coords="202,80,310,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,48,259,80,253,80,253,48"/>
+<area shape="rect" id="Node000004" href="$structplatf_1_1mic__attr__t.html" title=" " alt="" coords="333,80,446,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="293,37,367,77,365,82,291,42"/>
+</map>

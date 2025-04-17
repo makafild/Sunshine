@@ -1,0 +1,24 @@
+<map id="src/platform/linux/graphics.h" name="src/platform/linux/graphics.h">
+<area shape="rect" id="Node000001" title="Declarations for graphics related functions." alt="" coords="397,5,519,48"/>
+<area shape="rect" id="Node000002" href="$cuda_8cpp.html" title="Definitions for CUDA encoding." alt="" coords="5,187,127,229"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,44,299,65,255,80,213,98,177,119,143,143,89,188,86,184,140,139,174,115,210,94,253,75,297,60,381,39"/>
+<area shape="rect" id="Node000003" href="$graphics_8cpp.html" title="Definitions for graphics related functions." alt="" coords="447,96,568,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="479,60,498,94,494,97,475,63"/>
+<area shape="rect" id="Node000004" href="$kmsgrab_8cpp.html" title="Definitions for KMS screen capture." alt="" coords="151,187,272,229"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="382,35,345,43,307,55,271,73,240,98,226,118,218,142,213,187,208,186,213,141,222,116,236,94,268,68,305,50,344,38,381,30"/>
+<area shape="rect" id="Node000005" href="$linux_2misc_8cpp.html" title="Miscellaneous definitions for Linux." alt="" coords="592,96,713,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="518,52,608,93,606,98,516,57"/>
+<area shape="rect" id="Node000006" href="$vaapi_8cpp.html" title="Definitions for VA&#45;API hardware accelerated capture." alt="" coords="737,96,859,139"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="535,44,727,93,737,96,736,101,725,99,533,49"/>
+<area shape="rect" id="Node000007" href="$wayland_8cpp.html" title="Definitions for Wayland capture." alt="" coords="441,187,563,229"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="444,63,434,100,433,119,438,138,454,163,475,184,471,188,450,167,433,140,428,120,428,99,438,62"/>
+<area shape="rect" id="Node000008" href="$wayland_8h.html" title="Declarations for Wayland capture." alt="" coords="249,96,371,139"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="412,59,346,98,343,93,409,54"/>
+<area shape="rect" id="Node000010" href="$x11grab_8cpp.html" title="Definitions for x11 capture." alt="" coords="883,96,1004,139"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="535,35,691,59,872,93,883,96,882,101,871,99,690,64,534,41"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="240,147,124,189,122,184,238,142"/>
+<area shape="poly" id="edge9_Node000008_Node000004" title=" " alt="" coords="277,151,236,188,233,184,274,147"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="370,143,458,184,456,189,368,148"/>
+<area shape="rect" id="Node000009" href="$wlgrab_8cpp.html" title="Definitions for wlgrab capture." alt="" coords="296,187,417,229"/>
+<area shape="poly" id="edge11_Node000008_Node000009" title=" " alt="" coords="330,151,348,185,344,188,326,154"/>
+</map>

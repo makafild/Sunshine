@@ -1,0 +1,5 @@
+<map id="nvenc::nvenc_base" name="nvenc::nvenc_base">
+<area shape="rect" id="Node000001" title="Abstract platform&#45;agnostic base of standalone NVENC encoder. Derived classes perform platform&#45;specifi..." alt="" coords="27,112,161,139"/>
+<area shape="rect" id="Node000002" href="$classlogging_1_1min__max__avg__periodic__logger.html" title=" " alt="" coords="5,5,183,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,64,97,112,91,112,91,64"/>
+</map>

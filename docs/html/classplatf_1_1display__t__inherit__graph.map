@@ -1,0 +1,37 @@
+<map id="platf::display_t" name="platf::display_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,217,112,244"/>
+<area shape="rect" id="Node000002" href="$classcuda_1_1nvfbc_1_1display__t.html" title=" " alt="" coords="160,79,309,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,203,110,158,133,135,158,115,180,104,183,108,161,120,136,139,114,162,79,206"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1av__display__t.html" title=" " alt="" coords="171,129,298,156"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="90,206,158,166,186,154,188,159,161,170,92,211"/>
+<area shape="rect" id="Node000004" href="$classplatf_1_1dxgi_1_1display__base__t.html" title=" " alt="" coords="171,180,298,223"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="127,217,170,209,171,215,128,222"/>
+<area shape="rect" id="Node000011" href="$classplatf_1_1kms_1_1display__t.html" title=" " alt="" coords="165,247,304,273"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="128,239,165,246,164,251,127,245"/>
+<area shape="rect" id="Node000014" href="$structplatf_1_1x11__attr__t.html" title=" " alt="" coords="179,301,290,328"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="98,250,161,283,197,298,195,303,159,288,95,254"/>
+<area shape="rect" id="Node000016" href="$classwl_1_1wlr__t.html" title=" " alt="" coords="199,389,270,416"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="83,254,162,338,217,387,214,391,158,342,79,258"/>
+<area shape="rect" id="Node000005" href="$classplatf_1_1dxgi_1_1display__ram__t.html" title=" " alt="" coords="358,72,485,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="300,170,307,166,331,146,355,125,374,113,377,118,359,129,335,150,311,170,303,175"/>
+<area shape="rect" id="Node000008" href="$classplatf_1_1dxgi_1_1display__vram__t.html" title=" " alt="" coords="358,139,485,181"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="313,181,357,171,358,177,314,186"/>
+<area shape="rect" id="Node000006" href="$classplatf_1_1dxgi_1_1display__ddup__ram__t.html" title=" " alt="" coords="533,5,661,48"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="492,64,538,46,540,51,494,69"/>
+<area shape="rect" id="Node000007" href="$classplatf_1_1dxgi_1_1display__wgc__ram__t.html" title=" " alt="" coords="533,72,661,115"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="500,91,533,91,533,96,500,96"/>
+<area shape="rect" id="Node000009" href="$classplatf_1_1dxgi_1_1display__ddup__vram__t.html" title=" " alt="" coords="533,139,661,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="500,157,533,157,533,163,500,163"/>
+<area shape="rect" id="Node000010" href="$classplatf_1_1dxgi_1_1display__wgc__vram__t.html" title=" " alt="" coords="533,205,661,248"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="494,185,540,202,538,207,492,190"/>
+<area shape="rect" id="Node000012" href="$classplatf_1_1kms_1_1display__ram__t.html" title=" " alt="" coords="357,205,485,248"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="318,242,356,235,357,241,319,248"/>
+<area shape="rect" id="Node000013" href="$classplatf_1_1kms_1_1display__vram__t.html" title=" " alt="" coords="357,272,485,315"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="319,272,357,279,356,285,318,278"/>
+<area shape="rect" id="Node000015" href="$structplatf_1_1shm__attr__t.html" title=" " alt="" coords="363,339,479,365"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="306,326,363,338,362,343,305,331"/>
+<area shape="rect" id="Node000017" href="$classwl_1_1wlr__ram__t.html" title=" " alt="" coords="372,389,471,416"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="285,400,371,400,371,405,285,405"/>
+<area shape="rect" id="Node000018" href="$classwl_1_1wlr__vram__t.html" title=" " alt="" coords="368,440,474,467"/>
+<area shape="poly" id="edge17_Node000016_Node000018" title=" " alt="" coords="285,414,370,437,368,442,284,419"/>
+</map>

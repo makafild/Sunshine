@@ -1,0 +1,7 @@
+<map id="src/platform/macos/av_img_t.h" name="src/platform/macos/av_img_t.h">
+<area shape="rect" id="Node000001" title="Declarations for AV image types on macOS." alt="" coords="89,5,223,48"/>
+<area shape="rect" id="Node000002" href="$display_8mm.html" title="Definitions for display capture on macOS." alt="" coords="5,96,139,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,61,93,98,89,94,124,58"/>
+<area shape="rect" id="Node000003" href="$nv12__zero__device_8cpp.html" title="Definitions for NV12 zero copy device on macOS." alt="" coords="162,96,318,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,58,223,94,219,98,184,61"/>
+</map>

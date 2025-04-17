@@ -1,0 +1,9 @@
+<map id="platf::kms::display_t" name="platf::kms::display_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="76,80,215,107"/>
+<area shape="rect" id="Node000003" href="$classplatf_1_1kms_1_1display__ram__t.html" title=" " alt="" coords="5,155,134,197"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="125,120,91,156,87,153,121,116"/>
+<area shape="rect" id="Node000004" href="$classplatf_1_1kms_1_1display__vram__t.html" title=" " alt="" coords="157,155,286,197"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="170,116,204,153,200,156,166,120"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1display__t.html" title=" " alt="" coords="92,5,199,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,48,148,80,143,80,143,48"/>
+</map>

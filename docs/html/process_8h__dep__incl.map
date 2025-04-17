@@ -1,0 +1,17 @@
+<map id="src/process.h" name="src/process.h">
+<area shape="rect" id="Node000001" title="Declarations for the startup and shutdown of the apps started by a streaming Session." alt="" coords="442,5,542,32"/>
+<area shape="rect" id="Node000002" href="$confighttp_8cpp.html" title="Definitions for the Web UI Config HTTP server." alt="" coords="5,80,131,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="427,34,132,84,131,79,426,29"/>
+<area shape="rect" id="Node000003" href="$httpcommon_8cpp.html" title="Definitions for common HTTP." alt="" coords="155,80,296,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="432,39,273,82,271,77,430,34"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html" title="Definitions for the main entry point for Sunshine." alt="" coords="320,80,416,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="459,42,391,82,388,77,456,38"/>
+<area shape="rect" id="Node000005" href="$nvhttp_8cpp.html" title="Definitions for the nvhttp (GameStream) server." alt="" coords="440,80,544,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="495,48,495,80,489,80,489,48"/>
+<area shape="rect" id="Node000006" href="$process_8cpp.html" title="Definitions for the startup and shutdown of the apps started by a streaming Session." alt="" coords="568,80,682,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="529,37,603,77,601,82,527,42"/>
+<area shape="rect" id="Node000007" href="$stream_8cpp.html" title="Definitions for the streaming protocols." alt="" coords="707,80,816,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="554,34,715,77,713,82,553,39"/>
+<area shape="rect" id="Node000008" href="$system__tray_8cpp.html" title="Definitions for the system tray icon and notification system." alt="" coords="840,80,979,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="558,29,840,77,839,83,557,34"/>
+</map>

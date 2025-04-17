@@ -1,0 +1,17 @@
+<map id="src/platform/windows/nvprefs/nvprefs_common.h" name="src/platform/windows/nvprefs/nvprefs_common.h">
+<area shape="rect" id="Node000001" title="Declarations for common nvidia preferences." alt="" coords="421,5,604,48"/>
+<area shape="rect" id="Node000002" href="$driver__settings_8cpp.html" title="Definitions for nvidia driver settings." alt="" coords="5,104,188,147"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="406,53,201,99,172,106,171,101,200,93,405,47"/>
+<area shape="rect" id="Node000003" href="$nvapi__opensource__wrapper_8cpp.html" title="Definitions for the NVAPI wrapper." alt="" coords="212,96,389,155"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="454,57,365,98,362,93,452,52"/>
+<area shape="rect" id="Node000004" href="$nvprefs__common_8cpp.html" title="Definitions for common nvidia preferences." alt="" coords="414,104,611,147"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="515,63,515,104,510,104,510,63"/>
+<area shape="rect" id="Node000005" href="$undo__data_8cpp.html" title="Definitions for undoing changes to nvidia preferences." alt="" coords="635,104,792,147"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="571,53,672,101,670,106,568,58"/>
+<area shape="rect" id="Node000006" href="$undo__file_8h.html" title="Declarations for the nvidia undo file." alt="" coords="817,104,962,147"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="620,48,805,93,830,101,829,106,804,99,619,53"/>
+<area shape="rect" id="Node000007" href="$nvprefs__interface_8cpp.html" title="Definitions for nvidia preferences interface." alt="" coords="692,203,890,245"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="860,159,814,204,811,200,856,156"/>
+<area shape="rect" id="Node000008" href="$undo__file_8cpp.html" title="Definitions for the nvidia undo file." alt="" coords="914,203,1063,245"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="923,156,969,200,965,204,920,159"/>
+</map>

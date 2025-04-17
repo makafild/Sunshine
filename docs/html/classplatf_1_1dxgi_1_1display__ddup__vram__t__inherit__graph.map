@@ -1,0 +1,11 @@
+<map id="platf::dxgi::display_ddup_vram_t" name="platf::dxgi::display_ddup_vram_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="83,277,210,320"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1dxgi_1_1display__vram__t.html" title=" " alt="" coords="83,187,210,229"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,245,149,277,144,277,144,245"/>
+<area shape="rect" id="Node000003" href="$classplatf_1_1dxgi_1_1display__base__t.html" title=" " alt="" coords="5,88,133,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,141,132,185,128,188,93,145"/>
+<area shape="rect" id="Node000004" href="$classplatf_1_1display__t.html" title=" " alt="" coords="16,5,122,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="72,48,72,88,66,88,66,48"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="157,80,293,139"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="194,152,165,188,161,185,190,149"/>
+</map>

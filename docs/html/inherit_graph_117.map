@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classplatf_1_1mic__t.html" title=" " alt="" coords="5,56,92,83"/>
+<area shape="rect" id="Node000001" href="$classplatf_1_1audio_1_1mic__wasapi__t.html" title=" " alt="" coords="140,5,313,32"/>
+<area shape="poly" id="edge74_Node000000_Node000001" title=" " alt="" coords="106,50,176,30,178,35,107,55"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1av__mic__t.html" title=" " alt="" coords="173,56,280,83"/>
+<area shape="poly" id="edge75_Node000000_Node000002" title=" " alt="" coords="107,67,172,67,172,72,107,72"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1mic__attr__t.html" title=" " alt="" coords="170,107,282,133"/>
+<area shape="poly" id="edge76_Node000000_Node000003" title=" " alt="" coords="107,83,178,103,176,109,106,88"/>
+</map>

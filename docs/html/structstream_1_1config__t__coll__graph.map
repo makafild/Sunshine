@@ -1,0 +1,9 @@
+<map id="stream::config_t" name="stream::config_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="94,187,209,213"/>
+<area shape="rect" id="Node000002" href="$structaudio_1_1config__t.html" title=" " alt="" coords="33,96,139,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,134,144,184,140,188,102,137"/>
+<area shape="rect" id="Node000003" href="$structaudio_1_1stream__params__t.html" title=" " alt="" coords="5,5,167,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,48,89,95,83,95,83,48"/>
+<area shape="rect" id="Node000004" href="$structvideo_1_1config__t.html" title=" " alt="" coords="164,96,270,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="201,137,163,188,159,184,196,134"/>
+</map>

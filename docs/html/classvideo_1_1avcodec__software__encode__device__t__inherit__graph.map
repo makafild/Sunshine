@@ -1,0 +1,7 @@
+<map id="video::avcodec_software_encode_device_t" name="video::avcodec_software_encode_device_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,171,172,213"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1avcodec__encode__device__t.html" title=" " alt="" coords="12,80,165,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,138,91,170,86,170,86,138"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1encode__device__t.html" title=" " alt="" coords="12,5,165,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,48,91,80,86,80,86,48"/>
+</map>

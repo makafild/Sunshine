@@ -1,0 +1,9 @@
+<map id="src/platform/macos/av_audio.m" name="src/platform/macos/av_audio.m">
+<area shape="rect" id="Node000001" title="Definitions for audio capture on macOS." alt="" coords="144,5,278,48"/>
+<area shape="rect" id="Node000002" href="$av__audio_8h.html" title="Declarations for audio capture on macOS." alt="" coords="169,96,253,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,49,214,80,208,80,208,49"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,179,204,205"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="196,125,135,171,131,167,193,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="228,171,408,213"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="229,121,280,159,277,163,226,125"/>
+</map>

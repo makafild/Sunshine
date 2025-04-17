@@ -1,0 +1,11 @@
+<map id="platf::nvenc_encode_device_t" name="platf::nvenc_encode_device_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="126,203,264,245"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1encode__device__t.html" title=" " alt="" coords="36,112,189,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,149,180,200,176,204,131,152"/>
+<area shape="rect" id="Node000003" href="$structvideo_1_1sunshine__colorspace__t.html" title=" " alt="" coords="5,13,199,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,55,114,111,109,112,102,56"/>
+<area shape="rect" id="Node000004" href="$classnvenc_1_1nvenc__base.html" title="Abstract platform&#45;agnostic base of standalone NVENC encoder. Derived classes perform platform&#45;specifi..." alt="" coords="234,112,368,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="278,151,220,204,216,200,274,147"/>
+<area shape="rect" id="Node000005" href="$classlogging_1_1min__max__avg__periodic__logger.html" title=" " alt="" coords="223,5,400,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="310,64,305,112,299,111,305,63"/>
+</map>

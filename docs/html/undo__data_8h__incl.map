@@ -1,0 +1,11 @@
+<map id="src/platform/windows/nvprefs/undo_data.h" name="src/platform/windows/nvprefs/undo_data.h">
+<area shape="rect" id="Node000001" title="Declarations for undoing changes to nvidia preferences." alt="" coords="92,5,238,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,66,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,51,70,90,67,85,130,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="90,96,157,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,50,139,83,135,81,152,47"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="181,96,234,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="178,47,196,81,191,83,173,50"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="259,96,316,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="198,46,257,85,254,90,195,51"/>
+</map>

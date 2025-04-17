@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classnvenc_1_1nvenc__base.html" title="Abstract platform&#45;agnostic base of standalone NVENC encoder. Derived classes perform platform&#45;specifi..." alt="" coords="5,47,140,73"/>
+<area shape="rect" id="Node000001" href="$classnvenc_1_1nvenc__d3d11.html" title="Abstract Direct3D11 NVENC encoder. Encapsulates common code used by native and interop implementation..." alt="" coords="188,47,328,73"/>
+<area shape="poly" id="edge15_Node000000_Node000001" title=" " alt="" coords="156,57,187,57,187,63,156,63"/>
+<area shape="rect" id="Node000002" href="$classnvenc_1_1nvenc__d3d11__native.html" title="Native Direct3D11 NVENC encoder." alt="" coords="376,5,516,48"/>
+<area shape="poly" id="edge16_Node000001_Node000002" title=" " alt="" coords="343,42,375,36,376,42,344,48"/>
+<area shape="rect" id="Node000003" href="$classnvenc_1_1nvenc__d3d11__on__cuda.html" title="Interop Direct3D11 on CUDA NVENC encoder. Input surface is Direct3D11, encoding is performed by CUDA." alt="" coords="376,72,516,115"/>
+<area shape="poly" id="edge17_Node000001_Node000003" title=" " alt="" coords="344,72,376,78,375,84,343,78"/>
+</map>

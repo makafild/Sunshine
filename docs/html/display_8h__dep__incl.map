@@ -1,0 +1,11 @@
+<map id="src/platform/windows/display.h" name="src/platform/windows/display.h">
+<area shape="rect" id="Node000001" title="Declarations for the Windows display backend." alt="" coords="259,5,404,48"/>
+<area shape="rect" id="Node000002" href="$display__base_8cpp.html" title="Definitions for the Windows display base code." alt="" coords="5,96,151,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,56,138,98,137,93,257,51"/>
+<area shape="rect" id="Node000003" href="$display__ram_8cpp.html" title="Definitions for handling ram." alt="" coords="175,96,320,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="303,61,269,98,265,94,299,58"/>
+<area shape="rect" id="Node000004" href="$display__vram_8cpp.html" title="Definitions for handling video ram." alt="" coords="344,96,489,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="364,58,399,94,395,98,360,61"/>
+<area shape="rect" id="Node000005" href="$display__wgc_8cpp.html" title="Definitions for WinRT Windows.Graphics.Capture API." alt="" coords="513,96,659,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="406,51,527,93,525,98,404,56"/>
+</map>

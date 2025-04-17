@@ -1,0 +1,9 @@
+<map id="src/sync.h" name="src/sync.h">
+<area shape="rect" id="Node000001" title="Declarations for synchronization utilities." alt="" coords="133,5,216,32"/>
+<area shape="rect" id="Node000002" href="$rtsp_8cpp.html" title="Definitions for RTSP streaming." alt="" coords="5,80,96,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,42,74,82,71,77,139,38"/>
+<area shape="rect" id="Node000003" href="$stream_8cpp.html" title="Definitions for the streaming protocols." alt="" coords="120,80,229,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,48,177,80,172,80,172,48"/>
+<area shape="rect" id="Node000004" href="$video_8cpp.html" title="Definitions for video." alt="" coords="253,80,352,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,38,281,77,279,82,209,42"/>
+</map>

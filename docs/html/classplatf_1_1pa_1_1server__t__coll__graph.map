@@ -1,0 +1,9 @@
+<map id="platf::pa::server_t" name="platf::pa::server_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="266,80,389,107"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1audio__control__t.html" title=" " alt="" coords="26,5,169,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,34,190,41,291,77,289,82,189,47,165,39"/>
+<area shape="rect" id="Node000003" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="5,56,190,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,91,265,91,265,96,205,96"/>
+<area shape="rect" id="Node000004" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="10,155,185,229"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="198,146,293,105,295,110,200,151"/>
+</map>

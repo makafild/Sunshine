@@ -1,0 +1,25 @@
+<map id="platf::avcodec_encode_device_t" name="platf::avcodec_encode_device_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="206,161,358,204"/>
+<area shape="rect" id="Node000003" href="$classcuda_1_1cuda__t.html" title=" " alt="" coords="441,31,537,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="310,148,352,106,405,67,439,52,441,57,407,72,355,110,313,151"/>
+<area shape="rect" id="Node000006" href="$classcuda_1_1gl__cuda__vram__t.html" title=" " alt="" coords="414,81,564,108"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="334,151,405,118,437,106,439,111,407,122,336,156"/>
+<area shape="rect" id="Node000007" href="$classplatf_1_1dxgi_1_1d3d__avcodec__encode__device__t.html" title=" " alt="" coords="408,132,571,175"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="373,167,407,162,407,168,374,172"/>
+<area shape="rect" id="Node000008" href="$classplatf_1_1nv12__zero__device.html" title=" " alt="" coords="410,199,569,225"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="374,193,409,198,409,203,373,198"/>
+<area shape="rect" id="Node000009" href="$classva_1_1va__t.html" title=" " alt="" coords="455,249,523,276"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="343,208,407,235,455,251,454,256,405,240,341,213"/>
+<area shape="rect" id="Node000012" href="$classvideo_1_1avcodec__software__encode__device__t.html" title=" " alt="" coords="406,300,572,343"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="317,213,358,250,407,286,429,297,426,302,405,290,355,254,313,217"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1encode__device__t.html" title=" " alt="" coords="5,169,158,196"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,180,205,180,205,185,173,185"/>
+<area shape="rect" id="Node000004" href="$classcuda_1_1cuda__ram__t.html" title=" " alt="" coords="624,5,749,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="552,33,623,24,624,29,553,39"/>
+<area shape="rect" id="Node000005" href="$classcuda_1_1cuda__vram__t.html" title=" " alt="" coords="620,56,753,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="553,49,620,58,619,63,552,55"/>
+<area shape="rect" id="Node000010" href="$classva_1_1va__ram__t.html" title=" " alt="" coords="638,224,735,251"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="538,254,637,241,638,246,539,259"/>
+<area shape="rect" id="Node000011" href="$classva_1_1va__vram__t.html" title=" " alt="" coords="634,275,739,301"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="539,266,634,279,634,284,539,272"/>
+</map>

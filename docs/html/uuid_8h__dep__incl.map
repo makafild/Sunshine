@@ -1,0 +1,9 @@
+<map id="src/uuid.h" name="src/uuid.h">
+<area shape="rect" id="Node000001" title="Declarations for UUID generation." alt="" coords="186,5,264,32"/>
+<area shape="rect" id="Node000002" href="$confighttp_8cpp.html" title="Definitions for the Web UI Config HTTP server." alt="" coords="5,80,131,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,41,97,82,95,77,183,36"/>
+<area shape="rect" id="Node000003" href="$httpcommon_8cpp.html" title="Definitions for common HTTP." alt="" coords="155,80,296,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="228,48,228,80,223,80,223,48"/>
+<area shape="rect" id="Node000004" href="$nvhttp_8cpp.html" title="Definitions for the nvhttp (GameStream) server." alt="" coords="320,80,424,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="266,37,347,77,345,82,263,42"/>
+</map>

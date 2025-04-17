@@ -1,0 +1,9 @@
+<map id="src/platform/macos/av_video.m" name="src/platform/macos/av_video.m">
+<area shape="rect" id="Node000001" title="Definitions for video capture on macOS." alt="" coords="85,5,218,48"/>
+<area shape="rect" id="Node000002" href="$av__video_8h.html" title="Declarations for video capture on macOS." alt="" coords="110,96,194,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,49,154,80,149,80,149,49"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,171,120,197"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,125,91,163,88,159,135,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="143,171,342,197"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="169,121,217,159,214,163,166,125"/>
+</map>

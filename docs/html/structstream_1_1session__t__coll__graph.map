@@ -1,0 +1,28 @@
+<map id="stream::session_t" name="stream::session_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="974,203,1100,229"/>
+<area shape="rect" id="Node000002" href="$structstream_1_1config__t.html" title=" " alt="" coords="694,35,810,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="826,57,889,76,922,91,952,109,978,131,1000,156,1030,201,1026,204,996,159,974,134,949,113,919,95,888,81,824,62"/>
+<area shape="rect" id="Node000003" href="$structaudio_1_1config__t.html" title=" " alt="" coords="436,8,542,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="558,26,695,40,694,45,557,31"/>
+<area shape="rect" id="Node000004" href="$structaudio_1_1stream__params__t.html" title=" " alt="" coords="37,8,198,35"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="214,19,435,19,435,24,214,24"/>
+<area shape="rect" id="Node000005" href="$structvideo_1_1config__t.html" title=" " alt="" coords="436,59,542,85"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="558,70,637,65,694,57,695,62,637,71,558,75"/>
+<area shape="rect" id="Node000006" href="$classsafe_1_1shared__t.html" title=" " alt="" coords="674,85,830,128"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="846,123,899,138,951,158,989,178,1020,200,1017,204,986,183,949,162,897,143,845,128"/>
+<area shape="rect" id="Node000007" href="$classcrypto_1_1cipher_1_1cbc__t.html" title=" " alt="" coords="682,152,822,179"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="838,174,951,193,979,199,978,205,950,199,838,180"/>
+<area shape="rect" id="Node000008" href="$classcrypto_1_1cipher_1_1cipher__t.html" title=" " alt="" coords="412,179,566,205"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="582,180,681,170,682,175,582,185"/>
+<area shape="rect" id="Node000010" href="$classcrypto_1_1cipher_1_1gcm__t.html" title=" " alt="" coords="680,203,824,229"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="582,198,680,207,679,212,581,203"/>
+<area shape="rect" id="Node000009" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="5,155,230,229"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="245,189,411,189,411,195,245,195"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="840,213,974,213,974,219,840,219"/>
+<area shape="rect" id="Node000011" href="$classutil_1_1buffer__t.html" title=" " alt="" coords="683,253,821,280"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="836,253,950,235,983,227,984,232,951,240,837,259"/>
+<area shape="rect" id="Node000012" href="$classutil_1_1buffer__t.html" title=" " alt="" coords="688,304,817,347"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="831,307,890,292,949,270,986,249,1017,228,1020,232,989,254,951,274,892,297,833,313"/>
+<area shape="rect" id="Node000013" href="$structstream_1_1audio__fec__packet__t.html" title=" " alt="" coords="661,371,843,397"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="847,364,900,346,949,319,974,298,996,273,1026,228,1030,231,1000,276,978,301,952,324,902,351,849,369"/>
+</map>

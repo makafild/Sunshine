@@ -1,0 +1,26 @@
+var utility_8h =
+[
+    [ "util::__either< false, X, Y >", "structutil_1_1____either_3_01false_00_01X_00_01Y_01_4.html", null ],
+    [ "util::__either< true, X, Y >", "structutil_1_1____either_3_01true_00_01X_00_01Y_01_4.html", null ],
+    [ "util::__false_v< T, std::enable_if_t< instantiation_of_v< std::optional, T > > >", "structutil_1_1____false__v_3_01T_00_01std_1_1enable__if__t_3_01instantiation__of__v_3_01std_1_1optional_00_01T_01_4_01_4_01_4.html", null ],
+    [ "util::__false_v< T, std::enable_if_t< is_pointer_v< T > > >", "structutil_1_1____false__v_3_01T_00_01std_1_1enable__if__t_3_01is__pointer__v_3_01T_01_4_01_4_01_4.html", null ],
+    [ "util::__false_v< T, std::enable_if_t< std::is_same_v< T, bool > > >", "structutil_1_1____false__v_3_01T_00_01std_1_1enable__if__t_3_01std_1_1is__same__v_3_01T_00_01bool_01_4_01_4_01_4.html", null ],
+    [ "util::__instantiation_of< X, Y >", "structutil_1_1____instantiation__of.html", null ],
+    [ "util::__instantiation_of< X, X< Y... > >", "structutil_1_1____instantiation__of_3_01X_00_01X_3_01Y_8_8_8_01_4_01_4.html", null ],
+    [ "argument_type< T(U)>", "structargument__type_3_01T_07U_08_4.html", null ],
+    [ "util::buffer_t< T >", "classutil_1_1buffer__t.html", null ],
+    [ "util::Destroy< T, ReturnType, function >", "structutil_1_1Destroy.html", null ],
+    [ "util::Either< X, Y >", "classutil_1_1Either.html", null ],
+    [ "util::endian::endian_helper< T, S >", "structutil_1_1endian_1_1endian__helper.html", null ],
+    [ "util::endian::endian_helper< T, std::enable_if_t< instantiation_of_v< std::optional, T > > >", "structutil_1_1endian_1_1endian__helper_3_01T_00_01std_1_1enable__if__t_3_01instantiation__of__v_0fea619a60fca1c46381aa29a9b23f8b.html", null ],
+    [ "util::endian::endian_helper< T, std::enable_if_t<!(instantiation_of_v< std::optional, T >)> >", "structutil_1_1endian_1_1endian__helper_3_01T_00_01std_1_1enable__if__t_3_9_07instantiation__of__96e15fb5b259902e4e46b0ae99759087.html", null ],
+    [ "util::endian::endianness< T >", "structutil_1_1endian_1_1endianness.html", null ],
+    [ "util::FailGuard< T >", "classutil_1_1FailGuard.html", null ],
+    [ "util::Function< ReturnType, Args >", "structutil_1_1Function.html", null ],
+    [ "util::hash< T >", "classutil_1_1hash.html", null ],
+    [ "util::Hex< T >", "classutil_1_1Hex.html", null ],
+    [ "util::overloaded< Ts >", "structutil_1_1overloaded.html", null ],
+    [ "util::point_t", "structutil_1_1point__t.html", null ],
+    [ "util::uniq_ptr< T, D >", "classutil_1_1uniq__ptr.html", null ],
+    [ "util::wrap_ptr< T >", "classutil_1_1wrap__ptr.html", null ]
+];

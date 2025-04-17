@@ -1,0 +1,18 @@
+<map id="platf::shm_attr_t" name="platf::shm_attr_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="887,179,1004,205"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1x11__attr__t.html" title=" " alt="" coords="638,40,750,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="766,54,816,65,865,86,890,107,912,132,940,177,935,180,908,135,887,110,862,90,815,70,765,59"/>
+<area shape="rect" id="Node000003" href="$classplatf_1_1display__t.html" title=" " alt="" coords="357,13,463,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="479,30,638,45,638,51,478,36"/>
+<area shape="rect" id="Node000004" href="$classlogging_1_1time__delta__periodic__logger.html" title="A helper class for tracking and logging short time intervals across a period of time." alt="" coords="5,5,136,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="151,24,356,24,356,29,151,29"/>
+<area shape="rect" id="Node000005" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="325,67,495,141"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="511,106,646,117,794,140,856,157,910,176,908,181,854,162,793,145,645,122,510,111"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="510,84,638,61,638,66,511,89"/>
+<area shape="rect" id="Node000006" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="595,155,793,229"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="809,189,887,189,887,195,809,195"/>
+<area shape="rect" id="Node000007" href="$classplatf_1_1shm__id__t.html" title=" " alt="" coords="640,253,748,280"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="762,247,793,239,903,203,905,208,794,244,764,252"/>
+<area shape="rect" id="Node000008" href="$classplatf_1_1shm__data__t.html" title=" " alt="" coords="633,304,755,331"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="769,297,792,290,832,270,870,247,927,204,930,208,873,252,835,275,794,294,771,303"/>
+</map>

@@ -1,0 +1,31 @@
+<map id="src/nvenc/nvenc_colorspace.h" name="src/nvenc/nvenc_colorspace.h">
+<area shape="rect" id="Node000001" title="Declarations for NVENC YUV colorspace." alt="" coords="375,5,574,32"/>
+<area shape="rect" id="Node000002" href="$nvenc__base_8h.html" title="Declarations for abstract platform&#45;agnostic base of standalone NVENC encoder." alt="" coords="334,80,497,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="457,46,428,81,424,78,452,43"/>
+<area shape="rect" id="Node000012" href="$nvenc__utils_8h.html" title="Declarations for NVENC utilities." alt="" coords="577,237,737,264"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="496,42,649,235,645,239,491,46"/>
+<area shape="rect" id="Node000003" href="$nvenc__base_8cpp.html" title="Definitions for abstract platform&#45;agnostic base of standalone NVENC encoder." alt="" coords="58,155,235,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="355,114,194,157,193,151,354,109"/>
+<area shape="rect" id="Node000004" href="$nvenc__d3d11_8h.html" title="Declarations for abstract Direct3D11 NVENC encoder." alt="" coords="259,155,428,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="394,120,358,156,354,152,391,116"/>
+<area shape="rect" id="Node000011" href="$video_8cpp.html" title="Definitions for video." alt="" coords="453,155,552,181"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="444,115,489,152,486,156,441,119"/>
+<area shape="rect" id="Node000005" href="$nvenc__d3d11_8cpp.html" title="Definitions for abstract Direct3D11 NVENC encoder." alt="" coords="5,237,189,264"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="292,189,136,239,135,234,290,184"/>
+<area shape="rect" id="Node000006" href="$nvenc__d3d11__native_8h.html" title="Declarations for native Direct3D11 NVENC encoder." alt="" coords="212,229,371,272"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="329,196,307,231,303,228,325,193"/>
+<area shape="rect" id="Node000009" href="$nvenc__d3d11__on__cuda_8h.html" title="Declarations for CUDA NVENC encoder with Direct3D11 input surfaces." alt="" coords="395,229,554,272"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="378,187,442,227,439,231,375,192"/>
+<area shape="rect" id="Node000007" href="$nvenc__d3d11__native_8cpp.html" title="Definitions for native Direct3D11 NVENC encoder." alt="" coords="215,320,374,363"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="295,288,296,320,291,320,290,288"/>
+<area shape="rect" id="Node000008" href="$display__vram_8cpp.html" title="Definitions for handling video ram." alt="" coords="399,320,544,363"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="349,277,431,317,429,322,346,282"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="476,288,475,320,470,320,471,288"/>
+<area shape="rect" id="Node000010" href="$nvenc__d3d11__on__cuda_8cpp.html" title="Definitions for CUDA NVENC encoder with Direct3D11 input surfaces." alt="" coords="568,320,727,363"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="530,277,608,317,606,322,527,282"/>
+<area shape="poly" id="edge13_Node000012_Node000007" title=" " alt="" coords="591,271,375,323,373,318,590,266"/>
+<area shape="poly" id="edge16_Node000012_Node000008" title=" " alt="" coords="618,274,516,322,514,317,616,269"/>
+<area shape="poly" id="edge14_Node000012_Node000010" title=" " alt="" coords="657,280,652,320,647,319,651,280"/>
+<area shape="rect" id="Node000013" href="$nvenc__utils_8cpp.html" title="Definitions for NVENC utilities." alt="" coords="750,328,924,355"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="697,269,812,325,810,330,695,274"/>
+</map>

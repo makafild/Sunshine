@@ -1,0 +1,21 @@
+<map id="wl::wlr_ram_t" name="wl::wlr_ram_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1082,147,1181,173"/>
+<area shape="rect" id="Node000002" href="$classwl_1_1wlr__t.html" title=" " alt="" coords="829,89,899,116"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="915,110,1058,141,1082,147,1081,152,1057,147,914,116"/>
+<area shape="rect" id="Node000003" href="$classplatf_1_1display__t.html" title=" " alt="" coords="555,13,661,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="674,42,740,61,829,89,827,94,739,67,672,47"/>
+<area shape="rect" id="Node000004" href="$classlogging_1_1time__delta__periodic__logger.html" title="A helper class for tracking and logging short time intervals across a period of time." alt="" coords="236,5,366,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="382,24,555,24,555,29,382,29"/>
+<area shape="rect" id="Node000005" href="$classwl_1_1display__t.html" title=" " alt="" coords="561,64,655,91"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="671,81,829,97,828,102,670,86"/>
+<area shape="rect" id="Node000006" href="$classwl_1_1interface__t.html" title=" " alt="" coords="556,115,660,141"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="675,119,828,103,829,109,675,124"/>
+<area shape="rect" id="Node000007" href="$classwl_1_1dmabuf__t.html" title=" " alt="" coords="560,165,656,192"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="670,161,738,139,762,126,828,107,829,112,764,130,740,144,672,167"/>
+<area shape="rect" id="Node000008" href="$classwl_1_1frame__t.html" title=" " alt="" coords="258,165,344,192"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="360,176,560,176,560,181,360,181"/>
+<area shape="rect" id="Node000009" href="$structegl_1_1surface__descriptor__t.html" title=" " alt="" coords="5,165,170,192"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="185,176,257,176,257,181,185,181"/>
+<area shape="rect" id="Node000010" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="763,140,965,215"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="980,167,1081,161,1081,166,980,172"/>
+</map>

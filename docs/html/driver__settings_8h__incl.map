@@ -1,0 +1,17 @@
+<map id="src/platform/windows/nvprefs/driver_settings.h" name="src/platform/windows/nvprefs/driver_settings.h">
+<area shape="rect" id="Node000001" title="Declarations for nvidia driver settings." alt="" coords="85,5,253,48"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,69,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,51,72,90,69,85,134,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="93,96,245,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,49,172,80,166,80,166,49"/>
+<area shape="rect" id="Node000004" href="$undo__data_8h.html" title="Declarations for undoing changes to nvidia preferences." alt="" coords="268,96,360,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,46,279,86,277,90,205,51"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="154,171,214,197"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="293,126,221,165,219,160,290,121"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="238,171,305,197"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="309,125,289,159,284,156,305,122"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="329,171,382,197"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="324,122,343,156,339,159,319,125"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="407,171,464,197"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="337,121,403,160,400,165,334,126"/>
+</map>

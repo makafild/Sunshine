@@ -1,0 +1,5 @@
+<map id="platf::display_t" name="platf::display_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="17,112,124,139"/>
+<area shape="rect" id="Node000002" href="$classlogging_1_1time__delta__periodic__logger.html" title="A helper class for tracking and logging short time intervals across a period of time." alt="" coords="5,5,136,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,64,73,112,68,112,68,64"/>
+</map>

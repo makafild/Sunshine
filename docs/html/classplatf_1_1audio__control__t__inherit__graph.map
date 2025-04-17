@@ -1,0 +1,9 @@
+<map id="platf::audio_control_t" name="platf::audio_control_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="148,5,291,32"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1audio_1_1audio__control__t.html" title=" " alt="" coords="5,80,130,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,42,108,82,105,77,181,37"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1macos__audio__control__t.html" title=" " alt="" coords="154,80,285,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,48,222,80,217,80,217,48"/>
+<area shape="rect" id="Node000004" href="$classplatf_1_1pa_1_1server__t.html" title=" " alt="" coords="310,88,433,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="258,37,349,85,347,90,255,42"/>
+</map>

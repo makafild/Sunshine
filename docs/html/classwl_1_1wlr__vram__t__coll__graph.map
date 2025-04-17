@@ -1,0 +1,19 @@
+<map id="wl::wlr_vram_t" name="wl::wlr_vram_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="203,369,309,396"/>
+<area shape="rect" id="Node000002" href="$classwl_1_1wlr__t.html" title=" " alt="" coords="221,293,291,320"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="258,335,258,369,253,369,253,335"/>
+<area shape="rect" id="Node000003" href="$classplatf_1_1display__t.html" title=" " alt="" coords="17,203,124,229"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="112,234,230,290,228,295,109,239"/>
+<area shape="rect" id="Node000004" href="$classlogging_1_1time__delta__periodic__logger.html" title="A helper class for tracking and logging short time intervals across a period of time." alt="" coords="5,96,136,139"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="73,154,73,202,68,202,68,154"/>
+<area shape="rect" id="Node000005" href="$classwl_1_1display__t.html" title=" " alt="" coords="147,203,242,229"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="214,241,249,291,245,294,210,244"/>
+<area shape="rect" id="Node000006" href="$classwl_1_1interface__t.html" title=" " alt="" coords="266,203,369,229"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="302,244,283,271,267,294,263,291,279,268,298,241"/>
+<area shape="rect" id="Node000007" href="$classwl_1_1dmabuf__t.html" title=" " alt="" coords="393,203,489,229"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="410,240,353,272,293,296,291,291,351,267,408,236"/>
+<area shape="rect" id="Node000008" href="$classwl_1_1frame__t.html" title=" " alt="" coords="398,104,484,131"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="444,146,444,202,438,202,438,146"/>
+<area shape="rect" id="Node000009" href="$structegl_1_1surface__descriptor__t.html" title=" " alt="" coords="359,5,523,32"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="444,48,444,104,438,104,438,48"/>
+</map>

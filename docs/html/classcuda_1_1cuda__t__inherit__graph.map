@@ -1,0 +1,11 @@
+<map id="cuda::cuda_t" name="cuda::cuda_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="96,171,192,197"/>
+<area shape="rect" id="Node000004" href="$classcuda_1_1cuda__ram__t.html" title=" " alt="" coords="5,245,131,272"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="122,210,83,247,79,243,118,206"/>
+<area shape="rect" id="Node000005" href="$classcuda_1_1cuda__vram__t.html" title=" " alt="" coords="155,245,288,272"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="170,206,210,243,206,247,167,210"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1avcodec__encode__device__t.html" title=" " alt="" coords="68,80,220,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,139,147,170,141,170,141,139"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1encode__device__t.html" title=" " alt="" coords="68,5,220,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="147,48,147,80,141,80,141,48"/>
+</map>

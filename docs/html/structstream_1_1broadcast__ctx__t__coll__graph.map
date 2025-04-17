@@ -1,0 +1,11 @@
+<map id="stream::broadcast_ctx_t" name="stream::broadcast_ctx_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="633,104,795,131"/>
+<area shape="rect" id="Node000002" href="$classstream_1_1control__server__t.html" title=" " alt="" coords="337,104,499,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="514,115,633,115,633,120,514,120"/>
+<area shape="rect" id="Node000003" href="$classsync__util_1_1sync__t.html" title=" " alt="" coords="24,5,164,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="180,54,363,101,362,106,178,59"/>
+<area shape="rect" id="Node000004" href="$classsync__util_1_1sync__t.html" title=" " alt="" coords="5,88,183,147"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="198,115,336,115,336,120,198,120"/>
+<area shape="rect" id="Node000005" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="9,171,179,245"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="193,178,366,129,368,134,195,183"/>
+</map>

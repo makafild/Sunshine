@@ -1,0 +1,7 @@
+<map id="platf::dxgi::gpu_cursor_t" name="platf::dxgi::gpu_cursor_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="369,83,530,109"/>
+<area shape="rect" id="Node000002" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="21,5,248,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="264,62,369,80,368,85,263,67"/>
+<area shape="rect" id="Node000003" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="5,104,264,195"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="279,122,368,107,369,112,280,127"/>
+</map>

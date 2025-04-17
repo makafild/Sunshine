@@ -1,0 +1,12 @@
+<map id="platf::client_input_raw_t" name="platf::client_input_raw_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="657,5,778,48"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1deinit__t.html" title=" " alt="" coords="462,13,560,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="576,32,657,32,657,38,576,38"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="576,16,657,16,657,21,576,21"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1input__raw__t.html" title=" " alt="" coords="450,64,571,91"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="585,57,633,45,656,39,658,45,634,51,586,62"/>
+<area shape="rect" id="Node000004" href="$classplatf_1_1vigem__t.html" title=" " alt="" coords="263,64,363,91"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="379,75,450,75,450,80,379,80"/>
+<area shape="rect" id="Node000005" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="5,40,180,115"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="195,75,262,75,262,80,195,80"/>
+</map>

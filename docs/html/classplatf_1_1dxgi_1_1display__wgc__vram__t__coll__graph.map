@@ -1,0 +1,23 @@
+<map id="platf::dxgi::display_wgc_vram_t" name="platf::dxgi::display_wgc_vram_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1091,287,1219,329"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1dxgi_1_1display__vram__t.html" title=" " alt="" coords="915,287,1042,329"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1058,305,1091,305,1091,311,1058,311"/>
+<area shape="rect" id="Node000003" href="$classplatf_1_1dxgi_1_1display__base__t.html" title=" " alt="" coords="734,228,861,271"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="877,272,915,285,913,290,875,277"/>
+<area shape="rect" id="Node000004" href="$classplatf_1_1display__t.html" title=" " alt="" coords="417,13,523,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="539,28,578,35,616,50,646,67,673,89,722,138,760,187,786,226,781,229,756,190,718,141,670,93,643,72,614,54,577,40,538,33"/>
+<area shape="rect" id="Node000005" href="$classlogging_1_1time__delta__periodic__logger.html" title="A helper class for tracking and logging short time intervals across a period of time." alt="" coords="5,5,136,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="151,24,416,24,416,29,151,29"/>
+<area shape="rect" id="Node000006" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="370,64,570,139"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="585,136,616,148,695,187,762,225,759,230,693,192,614,153,583,141"/>
+<area shape="rect" id="Node000007" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="370,163,570,237"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="586,215,734,237,733,242,585,220"/>
+<area shape="rect" id="Node000008" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="376,261,564,336"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="578,280,733,256,734,262,579,285"/>
+<area shape="rect" id="Node000009" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="372,360,568,435"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="581,359,614,346,672,314,729,280,751,269,753,274,731,285,674,319,616,350,584,364"/>
+<area shape="rect" id="Node000010" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="325,459,615,533"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="606,449,614,444,666,407,684,386,704,356,712,336,714,318,717,300,728,281,741,269,745,273,732,284,722,302,719,319,717,338,708,359,688,389,669,411,616,449,609,453"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="730,295,865,353"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="881,314,914,311,915,316,881,319"/>
+</map>

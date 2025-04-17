@@ -1,0 +1,7 @@
+<map id="src/round_robin.h" name="src/round_robin.h">
+<area shape="rect" id="Node000001" title="Declarations for a round&#45;robin iterator." alt="" coords="77,5,199,32"/>
+<area shape="rect" id="Node000002" href="$kmsgrab_8cpp.html" title="Definitions for KMS screen capture." alt="" coords="5,80,127,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,46,86,82,82,78,115,42"/>
+<area shape="rect" id="Node000003" href="$wayland_8cpp.html" title="Definitions for Wayland capture." alt="" coords="151,80,272,123"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,42,195,78,191,82,158,45"/>
+</map>

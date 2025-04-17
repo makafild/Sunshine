@@ -1,0 +1,13 @@
+<map id="platf::dxgi::img_d3d_t" name="platf::dxgi::img_d3d_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="574,141,721,168"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1img__t.html" title=" " alt="" coords="270,13,356,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="371,34,433,49,494,73,552,102,622,138,620,143,549,106,491,78,432,55,370,39"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,144,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="159,24,269,24,269,29,159,29"/>
+<area shape="rect" id="Node000004" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="199,64,426,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="442,119,575,140,574,146,442,125"/>
+<area shape="rect" id="Node000005" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="193,163,432,253"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="448,184,573,164,574,169,448,189"/>
+<area shape="rect" id="Node000006" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="202,277,423,352"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="419,268,431,263,549,203,619,166,621,171,552,208,433,268,422,273"/>
+</map>

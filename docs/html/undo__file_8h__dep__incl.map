@@ -1,0 +1,7 @@
+<map id="src/platform/windows/nvprefs/undo_file.h" name="src/platform/windows/nvprefs/undo_file.h">
+<area shape="rect" id="Node000001" title="Declarations for the nvidia undo file." alt="" coords="130,5,275,48"/>
+<area shape="rect" id="Node000002" href="$nvprefs__interface_8cpp.html" title="Definitions for nvidia preferences interface." alt="" coords="5,96,203,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,61,129,97,125,93,167,57"/>
+<area shape="rect" id="Node000003" href="$undo__file_8cpp.html" title="Definitions for the nvidia undo file." alt="" coords="227,96,376,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,57,280,93,276,97,235,61"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="egl::img_descriptor_t" name="egl::img_descriptor_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="79,264,222,291"/>
+<area shape="rect" id="Node000002" href="$classegl_1_1cursor__t.html" title=" " alt="" coords="28,173,121,200"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,210,142,262,138,265,93,214"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1img__t.html" title=" " alt="" coords="31,97,118,124"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,139,77,173,72,173,72,139"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,5,144,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="77,64,77,97,72,97,72,64"/>
+<area shape="rect" id="Node000005" href="$structegl_1_1surface__descriptor__t.html" title=" " alt="" coords="146,173,310,200"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="209,213,164,265,160,262,205,210"/>
+</map>

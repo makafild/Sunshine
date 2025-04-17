@@ -1,0 +1,7 @@
+<map id="platf::gamepad_context_t" name="platf::gamepad_context_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="306,83,474,109"/>
+<area shape="rect" id="Node000002" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="5,5,184,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,64,306,81,305,86,198,69"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1gamepad__feedback__msg__t.html" title=" " alt="" coords="11,120,178,163"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="193,126,281,113,316,107,317,113,282,119,194,132"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="src/platform/linux/vaapi.h" name="src/platform/linux/vaapi.h">
+<area shape="rect" id="Node000001" title="Declarations for VA&#45;API hardware accelerated capture." alt="" coords="223,5,344,48"/>
+<area shape="rect" id="Node000002" href="$kmsgrab_8cpp.html" title="Definitions for KMS screen capture." alt="" coords="5,96,127,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,57,118,98,116,93,217,52"/>
+<area shape="rect" id="Node000003" href="$linux_2misc_8cpp.html" title="Miscellaneous definitions for Linux." alt="" coords="151,96,272,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,62,230,97,226,94,255,58"/>
+<area shape="rect" id="Node000004" href="$wlgrab_8cpp.html" title="Definitions for wlgrab capture." alt="" coords="296,96,417,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="312,58,342,94,338,97,308,62"/>
+<area shape="rect" id="Node000005" href="$x11grab_8cpp.html" title="Definitions for x11 capture." alt="" coords="441,96,563,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="350,52,452,93,450,98,348,57"/>
+</map>

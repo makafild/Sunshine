@@ -1,0 +1,28 @@
+<map id="va::va_t" name="va::va_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="925,195,994,221"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1avcodec__encode__device__t.html" title=" " alt="" coords="646,5,799,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="814,52,825,58,867,90,903,128,952,193,947,196,899,132,863,94,822,62,811,56"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1encode__device__t.html" title=" " alt="" coords="314,13,466,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="481,24,646,24,646,29,481,29"/>
+<area shape="rect" id="Node000004" href="$structvideo_1_1sunshine__colorspace__t.html" title=" " alt="" coords="5,13,199,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="214,24,313,24,313,29,214,29"/>
+<area shape="rect" id="Node000005" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="648,72,797,147"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="812,144,926,192,924,197,810,149"/>
+<area shape="rect" id="Node000006" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="622,171,823,245"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="839,205,925,205,925,211,839,211"/>
+<area shape="rect" id="Node000007" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="640,269,805,344"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="818,264,924,219,926,224,820,269"/>
+<area shape="rect" id="Node000008" href="$classegl_1_1sws__t.html" title=" " alt="" coords="682,368,763,395"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="777,371,822,354,864,323,900,285,948,220,952,223,904,289,868,327,825,358,779,376"/>
+<area shape="rect" id="Node000009" href="$classgl_1_1tex__t.html" title=" " alt="" coords="356,285,424,312"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="440,292,476,292,518,295,560,305,599,322,608,330,613,338,616,347,624,354,652,367,682,375,681,380,650,372,620,358,612,350,608,341,604,333,597,326,558,310,517,301,476,297,440,297"/>
+<area shape="rect" id="Node000010" href="$classutil_1_1buffer__t.html" title=" " alt="" coords="26,311,178,337"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="193,313,355,299,356,304,194,319"/>
+<area shape="rect" id="Node000011" href="$classgl_1_1frame__buf__t.html" title=" " alt="" coords="336,337,444,364"/>
+<area shape="poly" id="edge11_Node000011_Node000010" title=" " alt="" coords="193,330,335,343,335,348,193,335"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="460,354,682,375,681,380,459,360"/>
+<area shape="rect" id="Node000012" href="$classgl_1_1program__t.html" title=" " alt="" coords="341,391,438,417"/>
+<area shape="poly" id="edge12_Node000008_Node000012" title=" " alt="" coords="454,404,523,404,598,400,681,387,682,393,598,405,523,409,454,409"/>
+<area shape="rect" id="Node000013" href="$classgl_1_1buffer__t.html" title=" " alt="" coords="349,441,431,468"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="446,448,519,440,597,425,646,410,690,393,692,398,648,415,599,431,520,446,447,454"/>
+</map>

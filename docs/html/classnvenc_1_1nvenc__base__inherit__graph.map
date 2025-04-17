@@ -1,0 +1,9 @@
+<map id="nvenc::nvenc_base" name="nvenc::nvenc_base">
+<area shape="rect" id="Node000001" title="Abstract platform&#45;agnostic base of standalone NVENC encoder. Derived classes perform platform&#45;specifi..." alt="" coords="90,5,224,32"/>
+<area shape="rect" id="Node000002" href="$classnvenc_1_1nvenc__d3d11.html" title="Abstract Direct3D11 NVENC encoder. Encapsulates common code used by native and interop implementation..." alt="" coords="87,80,227,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,48,160,80,154,80,154,48"/>
+<area shape="rect" id="Node000003" href="$classnvenc_1_1nvenc__d3d11__native.html" title="Native Direct3D11 NVENC encoder." alt="" coords="5,155,146,197"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="135,120,98,156,94,153,131,116"/>
+<area shape="rect" id="Node000004" href="$classnvenc_1_1nvenc__d3d11__on__cuda.html" title="Interop Direct3D11 on CUDA NVENC encoder. Input surface is Direct3D11, encoding is performed by CUDA." alt="" coords="169,155,310,197"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="183,116,220,153,217,156,179,120"/>
+</map>

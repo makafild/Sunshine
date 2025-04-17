@@ -1,0 +1,46 @@
+<map id="src/platform/windows/nvprefs/driver_settings.cpp" name="src/platform/windows/nvprefs/driver_settings.cpp">
+<area shape="rect" id="Node000001" title="Definitions for nvidia driver settings." alt="" coords="284,5,467,48"/>
+<area shape="rect" id="Node000002" href="$driver__settings_8h.html" title="Declarations for nvidia driver settings." alt="" coords="184,96,301,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="343,51,277,90,275,85,340,46"/>
+<area shape="rect" id="Node000010" href="$nvprefs__common_8h.html" title="Declarations for common nvidia preferences." alt="" coords="624,96,756,123"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="457,46,627,89,625,94,456,51"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,171,69,197"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="207,126,84,169,82,164,206,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="93,171,245,197"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="231,125,194,161,191,158,228,121"/>
+<area shape="rect" id="Node000005" href="$undo__data_8h.html" title="Declarations for undoing changes to nvidia preferences." alt="" coords="268,171,360,197"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="257,121,293,158,289,161,253,125"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="112,245,172,272"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="285,200,187,241,185,236,283,195"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="197,245,264,272"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="301,200,258,237,255,233,298,196"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="288,245,341,272"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="317,198,317,230,312,230,312,198"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="366,245,423,272"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="330,196,371,233,368,237,326,200"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="703,171,787,197"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="702,122,728,156,724,160,698,125"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="810,171,877,197"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="718,121,804,161,802,166,716,126"/>
+<area shape="rect" id="Node000013" href="$utility_8h.html" title="Declarations for utility functions." alt="" coords="595,171,679,197"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="683,125,657,160,653,157,679,122"/>
+<area shape="poly" id="edge17_Node000013_Node000007" title=" " alt="" coords="595,194,458,214,279,248,278,242,457,209,594,188"/>
+<area shape="poly" id="edge19_Node000013_Node000008" title=" " alt="" coords="595,196,490,216,357,247,355,242,489,211,594,190"/>
+<area shape="poly" id="edge23_Node000013_Node000009" title=" " alt="" coords="595,200,439,247,437,242,594,195"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="842,245,917,272"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="680,195,828,239,827,244,679,200"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="941,245,1066,272"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="680,192,692,195,926,240,925,246,691,200,679,197"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="1091,245,1159,272"/>
+<area shape="poly" id="edge15_Node000013_Node000016" title=" " alt="" coords="680,192,692,195,798,210,882,217,968,226,1076,243,1075,248,967,231,882,223,797,215,691,200,679,198"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="1183,245,1240,272"/>
+<area shape="poly" id="edge16_Node000013_Node000017" title=" " alt="" coords="680,192,692,195,824,210,929,216,1035,223,1168,242,1168,248,1034,228,929,221,824,216,691,200,679,198"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="447,245,515,272"/>
+<area shape="poly" id="edge18_Node000013_Node000018" title=" " alt="" coords="611,200,523,241,521,236,609,195"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="539,245,626,272"/>
+<area shape="poly" id="edge20_Node000013_Node000019" title=" " alt="" coords="630,199,603,234,599,231,625,196"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="650,245,733,272"/>
+<area shape="poly" id="edge21_Node000013_Node000020" title=" " alt="" coords="649,196,675,231,671,234,644,199"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="758,245,818,272"/>
+<area shape="poly" id="edge22_Node000013_Node000021" title=" " alt="" coords="664,195,749,236,747,241,662,200"/>
+</map>

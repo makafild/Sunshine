@@ -1,0 +1,11 @@
+<map id="platf::av_mic_t" name="platf::av_mic_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="16,188,124,215"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1mic__t.html" title=" " alt="" coords="5,97,92,124"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,139,69,187,64,188,52,140"/>
+<area shape="rect" id="Node000003" href="$interfaceAVAudio.html" title=" " alt="" coords="116,97,186,124"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,137,83,189,80,186,127,134"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="32,13,110,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="96,49,141,95,137,99,92,53"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="135,5,327,48"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="202,61,165,99,161,95,199,57"/>
+</map>

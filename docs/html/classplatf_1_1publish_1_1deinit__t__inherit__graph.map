@@ -1,0 +1,8 @@
+<map id="platf::publish::deinit_t" name="platf::publish::deinit_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,96,151,123"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1deinit__t.html" title=" " alt="" coords="30,13,126,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,56,74,96,69,96,67,56"/>
+<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="89,56,87,96,82,96,84,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="150,5,342,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="190,58,105,98,103,93,188,53"/>
+</map>

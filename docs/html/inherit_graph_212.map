@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$structvideo_1_1encoder__platform__formats__t.html" title=" " alt="" coords="5,39,166,81"/>
+<area shape="rect" id="Node000001" href="$structvideo_1_1encoder__platform__formats__avcodec.html" title=" " alt="" coords="214,5,374,48"/>
+<area shape="poly" id="edge96_Node000000_Node000001" title=" " alt="" coords="180,42,213,37,214,42,181,47"/>
+<area shape="rect" id="Node000002" href="$structvideo_1_1encoder__platform__formats__nvenc.html" title=" " alt="" coords="214,72,374,115"/>
+<area shape="poly" id="edge97_Node000000_Node000002" title=" " alt="" coords="181,73,214,78,213,83,180,78"/>
+</map>

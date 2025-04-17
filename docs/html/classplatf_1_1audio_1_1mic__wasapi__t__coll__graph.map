@@ -1,0 +1,21 @@
+<map id="platf::audio::mic_wasapi_t" name="platf::audio::mic_wasapi_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="620,327,794,353"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1mic__t.html" title=" " alt="" coords="291,5,377,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="393,22,430,29,467,42,509,60,540,78,567,100,598,133,636,184,667,239,703,325,698,327,662,242,632,187,594,136,564,104,537,82,506,65,465,46,429,34,392,27"/>
+<area shape="rect" id="Node000003" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="244,56,424,131"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="440,127,468,140,536,179,598,227,654,280,696,324,692,328,650,283,595,231,533,184,465,145,437,132"/>
+<area shape="rect" id="Node000004" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="212,155,457,229"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="455,233,597,288,677,324,675,329,595,293,453,238"/>
+<area shape="rect" id="Node000005" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="245,253,423,328"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="439,302,620,326,620,331,438,307"/>
+<area shape="rect" id="Node000006" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="243,352,425,427"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="440,373,620,349,621,354,441,378"/>
+<area shape="rect" id="Node000007" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="202,451,466,525"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="453,442,595,387,675,351,677,356,597,392,455,447"/>
+<area shape="rect" id="Node000008" href="$classplatf_1_1audio_1_1audio__notification__t.html" title=" " alt="" coords="272,549,396,592"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="411,553,465,535,503,516,539,493,605,441,657,390,692,352,696,356,661,394,608,445,542,497,505,520,467,540,412,558"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="5,557,153,584"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="168,568,272,568,272,573,168,573"/>
+<area shape="rect" id="Node000010" href="$classutil_1_1buffer__t.html" title=" " alt="" coords="265,616,403,643"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="418,618,463,608,510,593,555,571,595,542,634,494,665,440,687,390,699,353,704,355,692,392,670,442,639,497,598,546,558,576,512,598,464,613,419,623"/>
+</map>

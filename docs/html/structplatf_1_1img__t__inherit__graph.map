@@ -1,0 +1,25 @@
+<map id="platf::img_t" name="platf::img_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="192,208,278,235"/>
+<area shape="rect" id="Node000003" href="$classcuda_1_1img__t.html" title=" " alt="" coords="357,5,446,32"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="241,192,252,158,269,118,293,77,324,42,355,25,358,30,328,46,297,80,274,120,257,160,246,194"/>
+<area shape="rect" id="Node000004" href="$classegl_1_1cursor__t.html" title=" " alt="" coords="355,56,448,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="247,192,278,142,299,115,324,92,353,78,356,82,328,97,303,119,282,145,252,195"/>
+<area shape="rect" id="Node000006" href="$structplatf_1_1av__img__t.html" title=" " alt="" coords="348,107,455,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="258,195,288,168,325,143,350,132,352,136,327,148,292,172,261,199"/>
+<area shape="rect" id="Node000007" href="$structplatf_1_1dxgi_1_1img__d3d__t.html" title=" " alt="" coords="328,157,475,184"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="292,201,355,182,356,187,294,206"/>
+<area shape="rect" id="Node000008" href="$structplatf_1_1dxgi_1_1img__t.html" title=" " alt="" coords="342,208,461,235"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="294,219,342,219,342,224,294,224"/>
+<area shape="rect" id="Node000009" href="$structplatf_1_1kms_1_1kms__img__t.html" title=" " alt="" coords="326,259,477,285"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="294,236,356,256,355,261,292,241"/>
+<area shape="rect" id="Node000010" href="$structplatf_1_1shm__img__t.html" title=" " alt="" coords="342,309,461,336"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="261,243,292,270,327,295,352,306,350,311,325,300,288,274,258,247"/>
+<area shape="rect" id="Node000011" href="$structplatf_1_1x11__img__t.html" title=" " alt="" coords="345,360,458,387"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="252,248,282,298,303,324,328,346,348,357,345,362,324,350,299,327,278,301,247,250"/>
+<area shape="rect" id="Node000012" href="$structwl_1_1img__t.html" title=" " alt="" coords="364,411,439,437"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="246,249,257,283,274,323,297,362,328,397,345,408,365,415,363,420,343,413,324,401,293,365,269,325,252,285,241,251"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,200,144,243"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,219,191,219,191,224,159,224"/>
+<area shape="rect" id="Node000005" href="$classegl_1_1img__descriptor__t.html" title=" " alt="" coords="525,56,668,83"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="464,67,525,67,525,72,464,72"/>
+</map>

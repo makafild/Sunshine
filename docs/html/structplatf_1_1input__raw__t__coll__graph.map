@@ -1,0 +1,7 @@
+<map id="platf::input_raw_t" name="platf::input_raw_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="450,29,571,56"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1vigem__t.html" title=" " alt="" coords="263,29,363,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="379,40,450,40,450,45,379,45"/>
+<area shape="rect" id="Node000003" href="$classutil_1_1uniq__ptr.html" title=" " alt="" coords="5,5,180,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,40,262,40,262,45,195,45"/>
+</map>

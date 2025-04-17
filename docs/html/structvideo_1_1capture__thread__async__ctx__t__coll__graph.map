@@ -1,0 +1,9 @@
+<map id="video::capture_thread_async_ctx_t" name="video::capture_thread_async_ctx_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="123,251,270,293"/>
+<area shape="rect" id="Node000002" href="$structvideo_1_1encoder__t.html" title=" " alt="" coords="32,144,150,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,181,149,225,174,248,170,252,145,229,108,185"/>
+<area shape="rect" id="Node000003" href="$structvideo_1_1encoder__t_1_1codec__t.html" title=" " alt="" coords="5,5,177,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,48,94,143,88,143,88,48"/>
+<area shape="rect" id="Node000004" href="$classsync__util_1_1sync__t.html" title=" " alt="" coords="174,128,315,187"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="229,202,208,251,203,249,224,200"/>
+</map>

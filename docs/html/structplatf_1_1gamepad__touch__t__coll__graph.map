@@ -1,0 +1,5 @@
+<map id="platf::gamepad_touch_t" name="platf::gamepad_touch_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,96,163,123"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1gamepad__id__t.html" title=" " alt="" coords="16,5,152,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,48,87,95,81,95,81,48"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="platf::nv12_zero_device" name="platf::nv12_zero_device">
+<area shape="rect" id="Node000001" title=" " alt="" coords="22,264,182,291"/>
+<area shape="rect" id="Node000002" href="$structplatf_1_1avcodec__encode__device__t.html" title=" " alt="" coords="26,172,178,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,230,105,264,99,264,99,230"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1encode__device__t.html" title=" " alt="" coords="26,96,178,123"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="105,138,105,172,99,172,99,138"/>
+<area shape="rect" id="Node000004" href="$structvideo_1_1sunshine__colorspace__t.html" title=" " alt="" coords="5,5,199,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="105,48,105,95,99,95,99,48"/>
+</map>

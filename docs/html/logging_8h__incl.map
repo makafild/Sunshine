@@ -1,0 +1,32 @@
+<map id="src/logging.h" name="src/logging.h">
+<area shape="rect" id="Node000001" title="Declarations for logging related functions." alt="" coords="265,5,360,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,159,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="273,35,138,77,136,72,272,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="183,80,317,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="304,34,273,70,269,66,300,31"/>
+<area shape="rect" id="Node000004" href="$config_8h.html" title="Declarations for the configuration of Sunshine." alt="" coords="342,80,409,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="326,31,357,66,353,70,322,34"/>
+<area shape="rect" id="Node000012" href="$stat__trackers_8h.html" title="Declarations for streaming statistic tracking." alt="" coords="724,80,832,107"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="361,25,709,79,708,84,360,30"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="22,155,75,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="342,106,329,109,211,132,91,157,90,152,210,127,328,104,341,101"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="654,155,715,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="410,99,640,151,639,156,409,104"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="100,155,166,181"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="342,107,182,155,180,150,340,102"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="190,155,243,181"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="349,110,259,150,257,146,347,105"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="267,155,377,181"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="368,109,342,144,338,141,364,106"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="401,155,459,181"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="387,106,413,140,409,144,383,109"/>
+<area shape="rect" id="Node000011" href="$nvenc__config_8h.html" title="Declarations for NVENC encoder configuration." alt="" coords="482,155,631,181"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="408,105,512,146,510,151,406,110"/>
+<area shape="poly" id="edge12_Node000012_Node000006" title=" " alt="" coords="763,109,714,147,711,143,760,105"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="739,155,817,181"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="781,107,781,139,775,139,775,107"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="841,155,894,181"/>
+<area shape="poly" id="edge14_Node000012_Node000014" title=" " alt="" coords="795,105,842,143,838,147,792,109"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="917,155,1036,181"/>
+<area shape="poly" id="edge15_Node000012_Node000015" title=" " alt="" coords="814,105,929,146,927,151,812,110"/>
+</map>

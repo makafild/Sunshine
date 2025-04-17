@@ -1,0 +1,27 @@
+var windows_2misc_8cpp =
+[
+    [ "platf::enum_wnd_context_t", "structplatf_1_1enum__wnd__context__t.html", null ],
+    [ "platf::qos_t", "classplatf_1_1qos__t.html", null ],
+    [ "platf::win32_high_precision_timer", "classplatf_1_1win32__high__precision__timer.html", "classplatf_1_1win32__high__precision__timer" ],
+    [ "platf::appdata", "common_8h.html#a4fbb83cf4b899a1c1803a001a7afe9b6", null ],
+    [ "platf::create_boost_child_from_results", "windows_2misc_8cpp.html#a6631e29abcd7ff73bb7da9dc630cb3de", null ],
+    [ "platf::create_high_precision_timer", "common_8h.html#a598d8f6f866a48ae0fe51da20ddad424", null ],
+    [ "platf::create_startup_info", "windows_2misc_8cpp.html#a21b0d513eb998ffc7bb541ee033ab0d1", null ],
+    [ "platf::enable_socket_qos", "common_8h.html#a7c9301b5a222caf9db82510718b39950", null ],
+    [ "platf::escape_argument", "windows_2misc_8cpp.html#ade158978d4dcd5cc16f08d9f52013571", null ],
+    [ "platf::escape_argument_for_cmd", "windows_2misc_8cpp.html#a8853314be94af1fef6ec18490e06f64a", null ],
+    [ "platf::from_utf8", "windows_2misc_8cpp.html#a15913f401214192b2dbdd7bf01da2eba", null ],
+    [ "platf::get_host_name", "common_8h.html#a999b96fc8107067dae040e1feedcd9dd", null ],
+    [ "platf::impersonate_current_user", "windows_2misc_8cpp.html#a10fe84dd3d4775399e913a2b64d2263e", null ],
+    [ "platf::is_running_as_system", "windows_2misc_8cpp.html#a53f6c3cd4522b564d2fae973257f4aea", null ],
+    [ "platf::open_url", "common_8h.html#a7fdf254e44bf90390769741c1a3befe6", null ],
+    [ "platf::override_per_user_predefined_keys", "windows_2misc_8cpp.html#a162ffc80f77670f8853643119ea1ae4b", null ],
+    [ "platf::process_group_running", "common_8h.html#a15b226e5b1acf4c217a696334aa9d5ad", null ],
+    [ "platf::request_process_group_exit", "common_8h.html#a50662722e41c039531c47613118ec6d4", null ],
+    [ "platf::resolve_command_string", "windows_2misc_8cpp.html#ae5dac8269d5e040704d71464e415c828", null ],
+    [ "platf::retrieve_users_token", "windows_2misc_8cpp.html#aa75096650807fe4ace1d5fcaabeee2f2", null ],
+    [ "platf::run_command", "linux_2misc_8cpp.html#a5d2544e4e425c501adbc4a2cc0ced119", null ],
+    [ "platf::set_env", "common_8h.html#adff9dd14d310da57cb60b1a946d10758", null ],
+    [ "platf::to_utf8", "windows_2misc_8cpp.html#ae6f52a348a20bf6c203bd0e0125be30e", null ],
+    [ "platf::unset_env", "common_8h.html#afe7959a469a8a2521010b116f72b879b", null ]
+];

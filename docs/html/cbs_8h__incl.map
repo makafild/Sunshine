@@ -1,0 +1,27 @@
+<map id="src/cbs.h" name="src/cbs.h">
+<area shape="rect" id="Node000001" title="Declarations for FFmpeg Coded Bitstream API." alt="" coords="514,5,590,32"/>
+<area shape="rect" id="Node000002" href="$utility_8h.html" title="Declarations for utility functions." alt="" coords="521,80,583,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="554,33,554,64,549,64,549,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,80,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="521,100,344,120,222,136,95,157,94,152,221,131,343,114,520,95"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="104,155,229,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="521,103,245,155,244,149,520,98"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="254,155,322,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="521,106,338,156,336,151,520,101"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="346,155,403,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="522,110,418,152,416,147,520,105"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="427,155,493,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="537,109,489,147,486,143,534,105"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="518,155,586,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="554,107,554,139,549,139,549,107"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="610,155,664,181"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="568,105,613,143,609,147,565,109"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="688,155,776,181"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="584,105,687,146,685,151,582,110"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="800,155,882,181"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="584,100,786,150,784,155,583,105"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="907,155,967,181"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="584,96,714,117,892,152,891,157,713,122,583,102"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="991,155,1048,181"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="584,95,748,113,860,130,976,152,975,157,859,135,747,119,583,100"/>
+</map>

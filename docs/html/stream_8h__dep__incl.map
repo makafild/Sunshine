@@ -1,0 +1,9 @@
+<map id="src/stream.h" name="src/stream.h">
+<area shape="rect" id="Node000001" title="Declarations for the streaming protocols." alt="" coords="127,5,222,32"/>
+<area shape="rect" id="Node000002" href="$rtsp_8cpp.html" title="Definitions for RTSP streaming." alt="" coords="5,80,96,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,42,74,82,71,77,139,38"/>
+<area shape="rect" id="Node000003" href="$stream_8cpp.html" title="Definitions for the streaming protocols." alt="" coords="120,80,229,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,48,177,80,172,80,172,48"/>
+<area shape="rect" id="Node000004" href="$upnp_8cpp.html" title="Definitions for UPnP port mapping." alt="" coords="253,80,349,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,38,280,77,278,82,208,42"/>
+</map>

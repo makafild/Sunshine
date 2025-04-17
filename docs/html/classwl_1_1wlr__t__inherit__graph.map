@@ -1,0 +1,9 @@
+<map id="wl::wlr_t" name="wl::wlr_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="82,80,153,107"/>
+<area shape="rect" id="Node000003" href="$classwl_1_1wlr__ram__t.html" title=" " alt="" coords="5,155,105,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="99,120,68,156,64,153,95,117"/>
+<area shape="rect" id="Node000004" href="$classwl_1_1wlr__vram__t.html" title=" " alt="" coords="128,155,235,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="141,117,173,152,169,156,137,120"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1display__t.html" title=" " alt="" coords="64,5,171,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,48,120,80,115,80,115,48"/>
+</map>

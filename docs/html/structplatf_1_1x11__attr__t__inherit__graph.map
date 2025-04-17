@@ -1,0 +1,7 @@
+<map id="platf::x11_attr_t" name="platf::x11_attr_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="8,80,119,107"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1shm__attr__t.html" title=" " alt="" coords="5,155,122,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="66,122,66,154,61,154,61,122"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1display__t.html" title=" " alt="" coords="10,5,117,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,48,66,80,61,80,61,48"/>
+</map>

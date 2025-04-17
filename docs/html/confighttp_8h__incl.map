@@ -1,0 +1,41 @@
+<map id="src/confighttp.h" name="src/confighttp.h">
+<area shape="rect" id="Node000001" title="Declarations for the Web UI Config HTTP server." alt="" coords="212,5,324,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,229,59,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="256,34,58,220,55,217,253,31"/>
+<area shape="rect" id="Node000003" href="$thread__safe_8h.html" title="Declarations for thread&#45;safe data structures." alt="" coords="650,80,750,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="324,27,635,78,634,84,324,32"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="595,155,645,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="688,109,647,146,643,142,684,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="670,155,730,181"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="703,107,703,139,697,139,697,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="83,229,208,256"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="653,110,209,227,207,222,652,105"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="755,155,832,181"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="718,105,767,143,764,147,715,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="856,155,902,181"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="732,105,842,149,840,154,730,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="910,229,967,256"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="751,93,791,98,834,108,878,125,915,153,926,166,933,182,940,213,935,214,928,184,921,169,911,157,875,130,833,113,790,103,750,98"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="991,229,1049,256"/>
+<area shape="poly" id="edge9_Node000003_Node000010" title=" " alt="" coords="751,96,843,113,894,129,941,152,978,182,1006,215,1002,219,974,186,939,157,892,134,841,118,750,101"/>
+<area shape="rect" id="Node000011" href="$utility_8h.html" title="Declarations for utility functions." alt="" coords="509,155,571,181"/>
+<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="673,110,583,150,581,145,671,105"/>
+<area shape="poly" id="edge17_Node000011_Node000002" title=" " alt="" coords="509,174,328,191,204,208,75,232,74,226,203,203,327,186,508,169"/>
+<area shape="poly" id="edge12_Node000011_Node000006" title=" " alt="" coords="509,178,224,230,223,225,508,172"/>
+<area shape="poly" id="edge14_Node000011_Node000009" title=" " alt="" coords="572,176,583,179,669,194,738,202,807,210,895,226,894,231,806,216,737,207,668,199,582,184,571,181"/>
+<area shape="poly" id="edge21_Node000011_Node000010" title=" " alt="" coords="572,176,583,179,692,196,778,202,866,209,976,226,976,232,865,214,778,207,691,201,582,184,571,181"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="232,229,306,256"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="509,180,322,230,321,225,508,175"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="331,229,400,256"/>
+<area shape="poly" id="edge13_Node000011_Node000013" title=" " alt="" coords="511,184,411,225,409,220,509,179"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="424,229,490,256"/>
+<area shape="poly" id="edge15_Node000011_Node000014" title=" " alt="" coords="527,184,485,221,481,217,524,180"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="515,229,584,256"/>
+<area shape="poly" id="edge16_Node000011_Node000015" title=" " alt="" coords="544,182,548,214,543,214,539,182"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="607,229,694,256"/>
+<area shape="poly" id="edge18_Node000011_Node000016" title=" " alt="" coords="561,180,620,218,617,223,558,184"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="719,229,801,256"/>
+<area shape="poly" id="edge19_Node000011_Node000017" title=" " alt="" coords="572,177,708,222,706,227,571,182"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="826,229,886,256"/>
+<area shape="poly" id="edge20_Node000011_Node000018" title=" " alt="" coords="572,176,583,179,696,202,811,226,810,231,694,208,582,184,571,181"/>
+</map>

@@ -1,0 +1,28 @@
+var platform_2windows_2input_8cpp =
+[
+    [ "platf::client_input_raw_t", "structplatf_1_1client__input__raw__t.html", null ],
+    [ "platf::gamepad_context_t", "structplatf_1_1gamepad__context__t.html", null ],
+    [ "platf::gp_touch_context_t", "structplatf_1_1gp__touch__context__t.html", null ],
+    [ "platf::input_raw_t", "structplatf_1_1input__raw__t.html", "structplatf_1_1input__raw__t" ],
+    [ "platf::vigem_t", "classplatf_1_1vigem__t.html", "classplatf_1_1vigem__t" ],
+    [ "platf::alloc_gamepad", "common_8h.html#a40ca62129afba973c5ff19211352f4aa", null ],
+    [ "platf::allocate_client_input_context", "common_8h.html#a7294b014506cc9822c80f602fecc14c5", null ],
+    [ "platf::cancel_all_active_touches", "platform_2windows_2input_8cpp.html#a967af9b490ec3a6713604aff8d7a17cd", null ],
+    [ "platf::ds4_update_ts_and_send", "platform_2windows_2input_8cpp.html#afbdd8ac9f0c7aafa5e8e731984bcd9bb", null ],
+    [ "platf::gamepad_battery", "common_8h.html#abdd53413d69b0b3eaacfdf7b0d8d342e", null ],
+    [ "platf::gamepad_motion", "common_8h.html#a8cde0deb6957485668b4bc4b2f6d751d", null ],
+    [ "platf::gamepad_touch", "common_8h.html#ae01bf59251f3a780fc483c9809d6f872", null ],
+    [ "platf::gamepad_update", "common_8h.html#ad70d827c0b2da335d65df482f3ca18e5", null ],
+    [ "platf::get_capabilities", "common_8h.html#ac6d03f56feda8a3bac98863894d78ce2", null ],
+    [ "platf::get_mouse_loc", "common_8h.html#a6f5f968406dd6f95634aea26b2e379ff", null ],
+    [ "platf::inject_synthetic_pointer_input", "platform_2windows_2input_8cpp.html#a3d62d75127bc7f5b522f6001ead70747", null ],
+    [ "platf::pen_update", "common_8h.html#a8b691a3dc4fbd6d34aa7b8d69411cc0b", null ],
+    [ "platf::perform_touch_compaction", "platform_2windows_2input_8cpp.html#a506f75050e50bb94f4b69b9d0914526a", null ],
+    [ "platf::pointer_by_id", "platform_2windows_2input_8cpp.html#aa5ca1d9180a074291feee1498dc714f5", null ],
+    [ "platf::populate_common_pointer_info", "platform_2windows_2input_8cpp.html#a9c143da1be3853021ea452a76385a487", null ],
+    [ "platf::repeat_pen", "platform_2windows_2input_8cpp.html#af38a7aa100f5c9d014ac4cd4964df96f", null ],
+    [ "platf::repeat_touch", "platform_2windows_2input_8cpp.html#ac5a1fa06e2306d7ea28b180aebfe6bb1", null ],
+    [ "platf::send_input", "platform_2windows_2input_8cpp.html#af23a78d0fef12cb0735854656e1be737", null ],
+    [ "platf::supported_gamepads", "common_8h.html#a156d03c673f6f5e04d5385bc1e6b8f24", null ],
+    [ "platf::touch_update", "common_8h.html#ae999694af675698f6129736857d47cca", null ]
+];

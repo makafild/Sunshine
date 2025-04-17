@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,80,140,107"/>
+<area shape="rect" id="Node000001" href="$structplatf_1_1high__precision__timer.html" title=" " alt="" coords="188,72,325,115"/>
+<area shape="poly" id="edge5_Node000000_Node000001" title=" " alt="" coords="155,91,187,91,187,96,155,96"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1linux__high__precision__timer.html" title=" " alt="" coords="379,5,550,48"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="338,64,395,46,396,51,340,69"/>
+<area shape="rect" id="Node000003" href="$classplatf_1_1macos__high__precision__timer.html" title=" " alt="" coords="373,72,556,115"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="341,91,372,91,372,96,341,96"/>
+<area shape="rect" id="Node000004" href="$classplatf_1_1win32__high__precision__timer.html" title=" " alt="" coords="376,139,554,181"/>
+<area shape="poly" id="edge8_Node000001_Node000004" title=" " alt="" coords="340,117,396,135,395,141,338,122"/>
+</map>

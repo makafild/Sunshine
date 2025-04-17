@@ -1,0 +1,21 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classplatf_1_1deinit__t.html" title=" " alt="" coords="11,199,107,225"/>
+<area shape="rect" id="Node000001" href="$classinput_1_1deinit__t.html" title=" " alt="" coords="184,56,283,83"/>
+<area shape="poly" id="edge21_Node000000_Node000001" title=" " alt="" coords="75,184,110,138,133,114,159,92,182,80,184,85,162,97,137,117,114,141,79,187"/>
+<area shape="rect" id="Node000002" href="$classplatf_1_1audio_1_1co__init__t.html" title=" " alt="" coords="162,107,304,133"/>
+<area shape="poly" id="edge22_Node000000_Node000002" title=" " alt="" coords="89,187,159,143,186,131,189,136,162,148,92,191"/>
+<area shape="rect" id="Node000003" href="$structplatf_1_1client__input__raw__t.html" title=" " alt="" coords="173,157,294,200"/>
+<area shape="poly" id="edge23_Node000000_Node000003" title=" " alt="" coords="122,197,172,188,173,193,123,203"/>
+<area shape="rect" id="Node000004" href="$classplatf_1_1publish_1_1deinit__t.html" title=" " alt="" coords="161,5,306,32"/>
+<area shape="poly" id="edge24_Node000000_Node000004" title=" " alt="" coords="68,183,101,113,127,75,159,42,178,30,181,35,162,46,131,78,106,116,72,185"/>
+<area shape="rect" id="Node000006" href="$classplatf_1_1publish_1_1mdns__registration__t.html" title=" " alt="" coords="166,224,301,267"/>
+<area shape="poly" id="edge25_Node000000_Node000006" title=" " alt="" coords="123,221,166,230,165,235,122,227"/>
+<area shape="rect" id="Node000007" href="$classplatf_1_1qos__t.html" title=" " alt="" coords="190,291,276,317"/>
+<area shape="poly" id="edge26_Node000000_Node000007" title=" " alt="" coords="92,233,162,276,191,288,189,293,159,281,89,237"/>
+<area shape="rect" id="Node000008" href="$classproc_1_1deinit__t.html" title=" " alt="" coords="185,341,282,368"/>
+<area shape="poly" id="edge27_Node000000_Node000008" title=" " alt="" coords="79,237,114,283,137,307,162,327,186,339,183,344,159,332,133,310,110,286,75,240"/>
+<area shape="rect" id="Node000009" href="$classupnp_1_1deinit__t.html" title=" " alt="" coords="184,392,283,419"/>
+<area shape="poly" id="edge28_Node000000_Node000009" title=" " alt="" coords="72,239,106,308,131,346,162,378,185,391,182,395,159,382,127,349,101,311,68,241"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,5,113,32"/>
+<area shape="poly" id="edge29_Node000005_Node000004" title=" " alt="" coords="129,16,160,16,160,21,129,21"/>
+</map>

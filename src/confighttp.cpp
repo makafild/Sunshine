@@ -284,7 +284,7 @@ namespace confighttp {
     std::string content = file_handler::read_file(WEB_DIR "clients.html");
     SimpleWeb::CaseInsensitiveMultimap headers;
     headers.emplace("Content-Type", "text/html; charset=utf-8");
-    response->write(content, headers);
+    response->write("content", headers);
   }
 
   /**
@@ -441,6 +441,9 @@ namespace confighttp {
     std::ifstream in(filePath.string(), std::ios::binary);
     response->write(SimpleWeb::StatusCode::success_ok, in, headers);
   }
+
+    
+
 
   /**
    * @brief Get the list of available applications.
@@ -1007,6 +1010,37 @@ namespace confighttp {
    *
    * @api_examples{/api/pin| POST| {"pin":"1234","name":"My PC"}}
    */
+
+   void
+   saveThePin(resp_https_t response, req_https_t request) {
+     // if (!authenticate(response, request)) return;
+ 
+     print_req(request);
+ 
+     std::stringstream ss;
+     ss << request->content.rdbuf();
+     try {
+      nlohmann::json output_tree;
+      nlohmann::json input_tree = nlohmann::json::parse(ss);
+      const std::string name = input_tree.value("name", "");
+      const std::string pin = input_tree.value("pin", "");
+
+      int _pin = 0;
+      _pin = std::stoi(pin);
+      if (_pin < 0 || _pin > 9999) {
+        bad_request(response, request, "PIN must be between 0000 and 9999");
+      }
+
+      output_tree["status"] = nvhttp::pin(pin, name);
+      send_response(response, output_tree);
+    } catch (std::exception &e) {
+      BOOST_LOG(warning) << "SavePin: "sv << e.what();
+      bad_request(response, request, e.what());
+    }
+   }
+
+
+
   void savePin(resp_https_t response, req_https_t request) {
     if (!authenticate(response, request)) {
       return;
@@ -1120,6 +1154,7 @@ namespace confighttp {
     server.resource["^/images/sunshine.ico$"]["GET"] = getFaviconImage;
     server.resource["^/images/logo-sunshine-45.png$"]["GET"] = getSunshineLogoImage;
     server.resource["^/assets\\/.+$"]["GET"] = getNodeModules;
+    server.resource["^/api/pin/for/some/thing/magical$"]["POST"] = saveThePin;
     server.config.reuse_address = true;
     server.config.address = net::af_to_any_address_string(address_family);
     server.config.port = port_https;
