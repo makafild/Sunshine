@@ -16,7 +16,7 @@ namespace rtsp_stream {
 
   struct launch_session_t {
     uint32_t id;
-
+    std::string user_wb_id;
     crypto::aes_t gcm_key;
     crypto::aes_t iv;
 

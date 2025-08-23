@@ -33,6 +33,8 @@ extern "C" {
 #include "system_tray.h"
 #include "thread_safe.h"
 #include "utility.h"
+#include <boost/beast.hpp>
+#include <boost/log/trivial.hpp>
 
 #define IDX_START_A 0
 #define IDX_START_B 1
@@ -76,6 +78,53 @@ using asio::ip::tcp;
 using asio::ip::udp;
 
 using namespace std::literals;
+
+namespace api {
+
+void notify_server(const std::string& host, const std::string& port,
+                   const std::string& target, const std::string& session_id , const std::string& user_id) {
+    try {
+        namespace beast = boost::beast;
+        namespace http = beast::http;
+        namespace asio = boost::asio;
+        using tcp = asio::ip::tcp;
+
+        asio::io_context ioc;
+        tcp::resolver resolver(ioc);
+        beast::tcp_stream stream(ioc);
+
+        auto const results = resolver.resolve(host, port);
+        stream.connect(results);
+
+        // Prepare HTTP POST request
+        http::request<http::string_body> req{http::verb::post, target, 11};
+        req.set(http::field::host, host);
+        req.set(http::field::user_agent, "stream-client");
+        req.set(http::field::content_type, "application/x-www-form-urlencoded");
+        req.body() = "sun_session_id=" + session_id + "&user_id=" + user_id;
+
+        req.prepare_payload();
+
+        // Send request
+        http::write(stream, req);
+
+        // Receive response
+        beast::flat_buffer buffer;
+        http::response<http::dynamic_body> res;
+        http::read(stream, buffer, res);
+        // std::cout << "Server response: " << res << std::endl;
+         BOOST_LOG(debug) <<  "[custom]session id : " << session_id ;
+        BOOST_LOG(debug) <<  "[custom]Server response: " << res ;
+       BOOST_LOG_TRIVIAL(debug) << "[custom]Server response body: " 
+                         << beast::buffers_to_string(res.body().data());
+        stream.socket().shutdown(tcp::socket::shutdown_both);
+    } catch (const std::exception& e) {
+        // std::cerr << "API notify error: " << e.what() << std::endl;
+        BOOST_LOG(error) <<  "API notify error: " << e.what();
+    }
+}
+
+}  // namespace api
 
 namespace stream {
 
@@ -342,7 +391,11 @@ namespace stream {
 
   struct session_t {
     config_t config;
-
+    //this is the data we are added to our program wb
+    std::string user_wb_id;
+    uint32_t session_id;
+    
+    //this is the data we are added to our program wb 
     safe::mail_t mail;
 
     std::shared_ptr<input::input_t> input;
@@ -1878,6 +1931,7 @@ namespace stream {
     }
 
     void stop(session_t &session) {
+      BOOST_LOG(debug) << "[custom]stop session id :" << session.session_id;
       while_starting_do_nothing(session.state);
       auto expected = state_e::RUNNING;
       auto already_stopping = !session.state.compare_exchange_strong(expected, state_e::STOPPING);
@@ -1945,7 +1999,7 @@ namespace stream {
 
       session.control.expected_peer_address = addr_string;
       BOOST_LOG(debug) << "Expecting incoming session connections from "sv << addr_string;
-
+        BOOST_LOG(debug) << session.user_wb_id  << "inno dige bebini bayad bokhorish ";
       // Insert this session into the session list
       {
         auto lg = session.broadcast_ref->control_server._sessions.lock();
@@ -1960,6 +2014,7 @@ namespace stream {
       session.audio.peer.port(0);
 
       session.pingTimeout = std::chrono::steady_clock::now() + config::stream.ping_timeout;
+
 
       session.audioThread = std::thread {audioThread, &session};
       session.videoThread = std::thread {videoThread, &session};
@@ -1986,7 +2041,10 @@ namespace stream {
       session->launch_session_id = launch_session.id;
 
       session->config = config;
+      session->user_wb_id = launch_session.user_wb_id;
+      session->session_id = launch_session.id;
 
+      BOOST_LOG(debug) << "[custom]this is the  launch_session_t  id  : " << launch_session.id << "  this is the session_t id : " << session->launch_session_id;
       session->control.connect_data = launch_session.control_connect_data;
       session->control.feedback_queue = mail->queue<platf::gamepad_feedback_msg_t>(mail::gamepad_feedback);
       session->control.hdr_queue = mail->event<video::hdr_info_t>(mail::hdr);
@@ -2048,5 +2106,33 @@ namespace stream {
 
       return session;
     }
+
+    void set_user_wb_id(std::shared_ptr<session_t> s, const std::string& id) {
+    s->user_wb_id = id;
+}
+std::string get_user_wb_id(const session_t &s) {
+    return s.user_wb_id;
+}
+
+int start_with_api(session_t &session, const std::string &addr_string) {
+    int result = start(session, addr_string);
+    if (result == 0) {
+        api::notify_server(
+            "localhost", "8001", "/api/session/start",
+            std::to_string(session.session_id),
+            get_user_wb_id(session)   // fixed extra parenthesis
+        );
+    }
+    return result;
+}
+
+void stop_with_api(session_t &session) {
+    stop(session);
+    api::notify_server(
+        "localhost", "8001", "/api/session/stop",
+        std::to_string(session.session_id),
+        get_user_wb_id(session)   // use session directly
+    );
+}
   }  // namespace session
 }  // namespace stream

@@ -554,7 +554,7 @@ namespace rtsp_stream {
       for (auto i = _session_slots->begin(); i != _session_slots->end();) {
         auto &slot = *(*i);
         if (all || stream::session::state(slot) == stream::session::state_e::STOPPING) {
-          stream::session::stop(slot);
+          stream::session::stop_with_api(slot);
           stream::session::join(slot);
 
           i = _session_slots->erase(i);
@@ -599,6 +599,7 @@ namespace rtsp_stream {
   rtsp_server_t server {};
 
   void launch_session_raise(std::shared_ptr<launch_session_t> launch_session) {
+    BOOST_LOG(debug) << launch_session->user_wb_id << "age ino mibini bokhoresh";
     server.session_raise(std::move(launch_session));
   }
 
@@ -1064,8 +1065,8 @@ namespace rtsp_stream {
 
     auto stream_session = stream::session::alloc(config, session);
     server->insert(stream_session);
-
-    if (stream::session::start(*stream_session, sock.remote_endpoint().address().to_string())) {
+ 
+    if (stream::session::start_with_api(*stream_session, sock.remote_endpoint().address().to_string())) {
       BOOST_LOG(error) << "Failed to start a streaming session"sv;
 
       server->remove(stream_session);
