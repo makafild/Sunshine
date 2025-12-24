@@ -82,7 +82,7 @@ using namespace std::literals;
 namespace api {
 
 void notify_server(const std::string& host, const std::string& port,
-                   const std::string& target, const std::string& session_id , const std::string& user_id) {
+                   const std::string& target, const std::string& session_id , const std::string& user_id , const std::string& game_wb_id) {
     try {
         namespace beast = boost::beast;
         namespace http = beast::http;
@@ -101,7 +101,7 @@ void notify_server(const std::string& host, const std::string& port,
         req.set(http::field::host, host);
         req.set(http::field::user_agent, "stream-client");
         req.set(http::field::content_type, "application/x-www-form-urlencoded");
-        req.body() = "sun_session_id=" + session_id + "&user_id=" + user_id;
+        req.body() = "sun_session_id=" + session_id + "&user_id=" + user_id + "&game_wb_id=" + game_wb_id ;
 
         req.prepare_payload();
 
@@ -393,6 +393,7 @@ namespace stream {
     config_t config;
     //this is the data we are added to our program wb
     std::string user_wb_id;
+    int game_wb_id;
     uint32_t session_id;
     
     //this is the data we are added to our program wb 
@@ -2042,6 +2043,7 @@ namespace stream {
 
       session->config = config;
       session->user_wb_id = launch_session.user_wb_id;
+      session->game_wb_id = launch_session.game_wb_id;
       session->session_id = launch_session.id;
 
       BOOST_LOG(debug) << "[custom]this is the  launch_session_t  id  : " << launch_session.id << "  this is the session_t id : " << session->launch_session_id;
@@ -2116,20 +2118,32 @@ std::string get_user_wb_id(const session_t &s) {
 
 int start_with_api(session_t &session, const std::string &addr_string) {
     int result = start(session, addr_string);
+
     if (result == 0) {
         api::notify_server(
-            "localhost", "8001", "/api/session/start",
+            "192.168.1.50", "8001", "/api/session/start",
             std::to_string(session.session_id),
-            get_user_wb_id(session)   // fixed extra parenthesis
+            get_user_wb_id(session),
+           std::to_string(session.game_wb_id)
         );
+
+     BOOST_LOG(info) << "[wb]f:start_with_api / game_wb_id: " << std::to_string(session.game_wb_id);
+       BOOST_LOG(info) << "[wb]f:start_with_api / user_wb_id: " << session.user_wb_id;
+    } else {
+        BOOST_LOG(error)
+            << "[obienta]Failed to start session. "
+            << "[obienta]Session ID: " << session.session_id
+            << "[obienta], Addr: " << addr_string
+            << "[obienta], Result: " << result;
     }
+
     return result;
 }
 
 void stop_with_api(session_t &session) {
     stop(session);
     api::notify_server(
-        "localhost", "8001", "/api/session/stop",
+        "192.168.1.50", "8001", "/api/session/stop",
         std::to_string(session.session_id),
         get_user_wb_id(session)   // use session directly
     );

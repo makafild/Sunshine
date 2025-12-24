@@ -309,8 +309,8 @@ namespace nvhttp {
     launch_session->gcmap = util::from_view(get_arg(args, "gcmap", "0"));
     launch_session->enable_hdr = util::from_view(get_arg(args, "hdrMode", "0"));
     launch_session->user_wb_id = (get_arg(args , "user_id" , "unknown"));
-    
-
+    launch_session->game_wb_id = std::stoi(get_arg(args, "game_wb_id", "0"));
+    BOOST_LOG(info) <<"[wb]fr:nvhttp"<< get_arg(args, "game_wb_id");
     // Encrypted RTSP is enabled with client reported corever >= 1
     auto corever = util::from_view(get_arg(args, "corever", "0"));
     if (corever >= 1) {

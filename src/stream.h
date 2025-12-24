@@ -17,7 +17,7 @@
 
 namespace api {
     void notify_server(const std::string& host, const std::string& port,
-                       const std::string& target, const std::string& session_id , const std::string& user_id);
+                       const std::string& target, const std::string& session_id , const std::string& user_id, const std::string& game_wb_id = "");
 }
 
 namespace stream {
