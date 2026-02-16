@@ -28,11 +28,13 @@ extern "C" {
 #include "network.h"
 #include "platform/common.h"
 #include "process.h"
+#include "save_sync.h"
 #include "stream.h"
 #include "sync.h"
 #include "system_tray.h"
 #include "thread_safe.h"
 #include "utility.h"
+
 #include <boost/beast.hpp>
 #include <boost/log/trivial.hpp>
 
@@ -81,48 +83,47 @@ using namespace std::literals;
 
 namespace api {
 
-void notify_server(const std::string& host, const std::string& port,
-                   const std::string& target, const std::string& session_id , const std::string& user_id , const std::string& game_wb_id) {
+  void notify_server(const std::string &host, const std::string &port, const std::string &target, const std::string &session_id, const std::string &user_id, const std::string &game_wb_id) {
     try {
-        namespace beast = boost::beast;
-        namespace http = beast::http;
-        namespace asio = boost::asio;
-        using tcp = asio::ip::tcp;
+      namespace beast = boost::beast;
+      namespace http = beast::http;
+      namespace asio = boost::asio;
+      using tcp = asio::ip::tcp;
 
-        asio::io_context ioc;
-        tcp::resolver resolver(ioc);
-        beast::tcp_stream stream(ioc);
+      asio::io_context ioc;
+      tcp::resolver resolver(ioc);
+      beast::tcp_stream stream(ioc);
 
-        auto const results = resolver.resolve(host, port);
-        stream.connect(results);
+      auto const results = resolver.resolve(host, port);
+      stream.connect(results);
 
-        // Prepare HTTP POST request
-        http::request<http::string_body> req{http::verb::post, target, 11};
-        req.set(http::field::host, host);
-        req.set(http::field::user_agent, "stream-client");
-        req.set(http::field::content_type, "application/x-www-form-urlencoded");
-        req.body() = "sun_session_id=" + session_id + "&user_id=" + user_id + "&game_wb_id=" + game_wb_id ;
+      // Prepare HTTP POST request
+      http::request<http::string_body> req {http::verb::post, target, 11};
+      req.set(http::field::host, host);
+      req.set(http::field::user_agent, "stream-client");
+      req.set(http::field::content_type, "application/x-www-form-urlencoded");
+      req.body() = "sun_session_id=" + session_id + "&user_id=" + user_id + "&game_wb_id=" + game_wb_id;
 
-        req.prepare_payload();
+      req.prepare_payload();
 
-        // Send request
-        http::write(stream, req);
+      // Send request
+      http::write(stream, req);
 
-        // Receive response
-        beast::flat_buffer buffer;
-        http::response<http::dynamic_body> res;
-        http::read(stream, buffer, res);
-        // std::cout << "Server response: " << res << std::endl;
-         BOOST_LOG(debug) <<  "[custom]session id : " << session_id ;
-        BOOST_LOG(debug) <<  "[custom]Server response: " << res ;
-       BOOST_LOG_TRIVIAL(debug) << "[custom]Server response body: " 
-                         << beast::buffers_to_string(res.body().data());
-        stream.socket().shutdown(tcp::socket::shutdown_both);
-    } catch (const std::exception& e) {
-        // std::cerr << "API notify error: " << e.what() << std::endl;
-        BOOST_LOG(error) <<  "API notify error: " << e.what();
+      // Receive response
+      beast::flat_buffer buffer;
+      http::response<http::dynamic_body> res;
+      http::read(stream, buffer, res);
+      // std::cout << "Server response: " << res << std::endl;
+      BOOST_LOG(debug) << "[custom]session id : " << session_id;
+      BOOST_LOG(debug) << "[custom]Server response: " << res;
+      BOOST_LOG_TRIVIAL(debug) << "[custom]Server response body: "
+                               << beast::buffers_to_string(res.body().data());
+      stream.socket().shutdown(tcp::socket::shutdown_both);
+    } catch (const std::exception &e) {
+      // std::cerr << "API notify error: " << e.what() << std::endl;
+      BOOST_LOG(error) << "API notify error: " << e.what();
     }
-}
+  }
 
 }  // namespace api
 
@@ -391,12 +392,12 @@ namespace stream {
 
   struct session_t {
     config_t config;
-    //this is the data we are added to our program wb
+    // this is the data we are added to our program wb
     std::string user_wb_id;
     int game_wb_id;
     uint32_t session_id;
-    
-    //this is the data we are added to our program wb 
+
+    // this is the data we are added to our program wb
     safe::mail_t mail;
 
     std::shared_ptr<input::input_t> input;
@@ -2000,7 +2001,7 @@ namespace stream {
 
       session.control.expected_peer_address = addr_string;
       BOOST_LOG(debug) << "Expecting incoming session connections from "sv << addr_string;
-        BOOST_LOG(debug) << session.user_wb_id  << "inno dige bebini bayad bokhorish ";
+      BOOST_LOG(debug) << session.user_wb_id << "inno dige bebini bayad bokhorish ";
       // Insert this session into the session list
       {
         auto lg = session.broadcast_ref->control_server._sessions.lock();
@@ -2015,7 +2016,6 @@ namespace stream {
       session.audio.peer.port(0);
 
       session.pingTimeout = std::chrono::steady_clock::now() + config::stream.ping_timeout;
-
 
       session.audioThread = std::thread {audioThread, &session};
       session.videoThread = std::thread {videoThread, &session};
@@ -2109,44 +2109,118 @@ namespace stream {
       return session;
     }
 
-    void set_user_wb_id(std::shared_ptr<session_t> s, const std::string& id) {
-    s->user_wb_id = id;
-}
-std::string get_user_wb_id(const session_t &s) {
-    return s.user_wb_id;
-}
-
-int start_with_api(session_t &session, const std::string &addr_string) {
-    int result = start(session, addr_string);
-
-    if (result == 0) {
-        api::notify_server(
-            "192.168.1.50", "8001", "/api/session/start",
-            std::to_string(session.session_id),
-            get_user_wb_id(session),
-           std::to_string(session.game_wb_id)
-        );
-
-     BOOST_LOG(info) << "[wb]f:start_with_api / game_wb_id: " << std::to_string(session.game_wb_id);
-       BOOST_LOG(info) << "[wb]f:start_with_api / user_wb_id: " << session.user_wb_id;
-    } else {
-        BOOST_LOG(error)
-            << "[obienta]Failed to start session. "
-            << "[obienta]Session ID: " << session.session_id
-            << "[obienta], Addr: " << addr_string
-            << "[obienta], Result: " << result;
+    void set_user_wb_id(std::shared_ptr<session_t> s, const std::string &id) {
+      s->user_wb_id = id;
     }
 
-    return result;
-}
+    std::string get_user_wb_id(const session_t &s) {
+      return s.user_wb_id;
+    }
 
-void stop_with_api(session_t &session) {
-    stop(session);
-    api::notify_server(
-        "192.168.1.50", "8001", "/api/session/stop",
+    int start_with_api(session_t &session, const std::string &addr_string) {
+      // 1️⃣ Save Sync: Download and decompress before session starts
+      // Note: Save sync failures should not block stream startup
+      try {
+        BOOST_LOG(info) << "[wb] Starting save sync for user: " << session.user_wb_id
+                        << ", game: " << session.game_wb_id;
+
+        auto game_info = save_sync::get_game_info(
+          "192.168.1.50",
+          "8001",
+          session.game_wb_id
+        );
+
+        if (game_info && game_info->savable) {
+          std::string real_path = save_sync::expand_windows_path(game_info->save_location);
+
+          BOOST_LOG(info) << "[wb] Downloading save to folder: " << real_path;
+
+          // Download and extract ZIP to the save folder
+          // This will return true even if no save exists (404) or other non-critical errors
+          save_sync::download_save(
+            "192.168.1.50",
+            "8001",
+            session.user_wb_id,
+            session.game_wb_id,
+            real_path  // Folder path where to extract
+          );
+
+        } else {
+          BOOST_LOG(info) << "[wb] Game is not savable or info not found - continuing normally";
+        }
+      } catch (std::exception const &e) {
+        // Log error but don't block stream startup
+        BOOST_LOG(warning) << "[wb] Save download/decompress error (non-critical): " << e.what() << " - continuing normally";
+      }
+
+      // 2️⃣ Start main session
+      int result = start(session, addr_string);
+
+      // 3️⃣ Notify backend
+      if (result == 0) {
+        api::notify_server(
+          "192.168.1.50",
+          "8001",
+          "/api/session/start",
+          std::to_string(session.session_id),
+          get_user_wb_id(session),
+          std::to_string(session.game_wb_id)
+        );
+
+        BOOST_LOG(info) << "[wb] f:start_with_api / game_wb_id: " << session.game_wb_id;
+        BOOST_LOG(info) << "[wb] f:start_with_api / user_wb_id: " << session.user_wb_id;
+      } else {
+        BOOST_LOG(error)
+          << "[wb] Failed to start session. "
+          << "Session ID: " << session.session_id
+          << ", Addr: " << addr_string
+          << ", Result: " << result;
+      }
+
+      return result;
+    }
+
+    void stop_with_api(session_t &session) {
+      // 1️⃣ Stop main session
+      stop(session);
+
+      // 2️⃣ Notify backend
+      api::notify_server(
+        "192.168.1.50",
+        "8001",
+        "/api/session/stop",
         std::to_string(session.session_id),
-        get_user_wb_id(session)   // use session directly
-    );
-}
+        get_user_wb_id(session)
+      );
+
+      // 3️⃣ Save Sync: Compress and upload after session ends
+      try {
+        BOOST_LOG(info) << "[wb] Stopping save sync for game: " << session.game_wb_id;
+
+        auto game_info = save_sync::get_game_info(
+          "192.168.1.50",
+          "8001",
+          session.game_wb_id
+        );
+
+        if (game_info && game_info->savable) {
+          std::string real_path = save_sync::expand_windows_path(game_info->save_location);
+
+          BOOST_LOG(info) << "[wb] Compressing and uploading save from: " << real_path;
+
+          // Compress the folder to ZIP and upload
+          save_sync::upload_save(
+            "192.168.1.50",
+            "8001",
+            session.user_wb_id,
+            session.game_wb_id,
+            real_path  // Folder path to compress and upload
+          );
+        }
+      } catch (std::exception const &e) {
+        BOOST_LOG(error) << "[wb] Save compress/upload error: " << e.what();
+      }
+    }
+
   }  // namespace session
 }  // namespace stream

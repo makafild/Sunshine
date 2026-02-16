@@ -20,6 +20,9 @@ link_directories(${CURL_STATIC_LIBRARY_DIRS})
 # miniupnpc
 add_definitions(-DMINIUPNP_STATICLIB)
 
+# minizip
+add_definitions(-DMINIZIP_STATICLIB)
+
 # extra tools/binaries for audio/display devices
 add_subdirectory(tools)  # todo - this is temporary, only tools for Windows are needed, for now
 
@@ -76,6 +79,7 @@ list(PREPEND PLATFORM_LIBRARIES
         libstdc++.a
         libwinpthread.a
         minhook::minhook
+        minizip::minizip
         ntdll
         setupapi
         shlwapi
@@ -84,6 +88,15 @@ list(PREPEND PLATFORM_LIBRARIES
         ws2_32
         wsock32
 )
+
+# Add bzip2 if found (required by minizip when compiled with bzip2 support)
+if(TARGET bz2::bz2)
+    list(APPEND PLATFORM_LIBRARIES bz2::bz2)
+else()
+    # Try linking bzip2 by name (common in MSYS2/MinGW where it's in the same lib directory)
+    # This will only link if the library exists
+    list(APPEND PLATFORM_LIBRARIES libbz2.a)
+endif()
 
 if(SUNSHINE_ENABLE_TRAY)
     list(APPEND PLATFORM_TARGET_FILES
